@@ -22,6 +22,8 @@ public class Cowboy_attack : MonoBehaviour
     }
     public void FireBullet()
     {
+        Debug.Log("firebullet");
+        float rotate = 0;
         if (anim.GetFloat("dirX") == 1)
         {
             if (anim.GetFloat("dirY") == 0)
@@ -31,10 +33,12 @@ public class Cowboy_attack : MonoBehaviour
             if (anim.GetFloat("dirY") == 1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_trenphai").transform.position;
+                rotate += 45;
             }
             if (anim.GetFloat("dirY") == -1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_duoiphai").transform.position;
+                rotate -= 45;
             }
         }
         else if (anim.GetFloat("dirX") == -1)
@@ -42,14 +46,18 @@ public class Cowboy_attack : MonoBehaviour
             if (anim.GetFloat("dirY") == 0)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_left").transform.position;
+                rotate += 180;
+
             }
             if (anim.GetFloat("dirY") == -1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_duoitrai").transform.position;
+                rotate += 215;
             }
             if (anim.GetFloat("dirY") == 1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_trentrai").transform.position;
+                rotate += 135;
             }
         }
         else
@@ -57,18 +65,21 @@ public class Cowboy_attack : MonoBehaviour
             if (anim.GetFloat("dirY") == 0)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_left").transform.position;
+                rotate += 180;
             }
             if (anim.GetFloat("dirY") == -1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_down").transform.position;
+                rotate += 270;
             }
             if (anim.GetFloat("dirY") == 1)
             {
                 bulletInitPos = gameObject.transform.Find("Bullet_InitPos_top").transform.position;
+                rotate += 90;
             }
         }
-        Debug.Log(bulletInitPos.ToString());
-         GameObject bulletClone = Instantiate(bullet, bulletInitPos, quaternion.identity);
+        bullet.transform.eulerAngles = Vector3.forward * rotate;
+         GameObject bulletClone = Instantiate(bullet, bulletInitPos, bullet.transform.rotation);
         bulletClone.GetComponent<BulletScript>().StartFire(new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY")));
     }
 }

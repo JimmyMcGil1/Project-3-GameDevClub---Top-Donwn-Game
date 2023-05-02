@@ -9,13 +9,14 @@ public class CowboyBeheviour : MonoBehaviour
     Rigidbody2D rigit;
     [HideInInspector] public float hor;
     [HideInInspector] public float ver;
-    [SerializeField] float speed;
+    Character_BaseSet baseSet;
     private void Awake()
     {
         if (instance != null && instance != this) Destroy(this);
         else instance = this;
         anim = GetComponent<Animator>();
         rigit = GetComponent<Rigidbody2D>();
+        baseSet = GetComponent<Character_BaseSet>();
     }
     private void Update()
     {
@@ -23,7 +24,6 @@ public class CowboyBeheviour : MonoBehaviour
         ver = Input.GetAxisRaw("Vertical");
         anim.SetBool("isMoving", hor != 0 || ver != 0);
         if (hor != 0 || ver != 0) Moving();
-        if (Input.GetKeyDown(KeyCode.Mouse0)) anim.SetTrigger("attack1");
     }
 
     void Moving()
@@ -32,7 +32,7 @@ public class CowboyBeheviour : MonoBehaviour
         anim.SetFloat("dirY", ver);
         Vector2 newPos = new Vector2(hor, ver);
         if (newPos.magnitude > 1) newPos.Normalize();
-        newPos *= speed * Time.deltaTime;
+        newPos *= baseSet.speed * Time.deltaTime;
         rigit.position += newPos;
     }
 
