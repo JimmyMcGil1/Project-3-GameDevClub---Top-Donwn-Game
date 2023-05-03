@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1088,9 +1088,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Player Angle 2 Sheet_19: 1356952920
-      Player Angle 2 Sheet_42: 1579366059
+      Player Angle 2 Sheet_20: -1920097495
       Player Angle 2 Sheet_30: -90628903
-      Player Angle 2 Sheet_28: 1966062400
+      Player Angle 2 Sheet_39: 1200964281
       Player Angle 2 Sheet_29: 1980983284
       Player Angle 2 Sheet_2: 73143043
       Player Angle 2 Sheet_35: -1281692648
@@ -1129,8 +1129,8 @@ TextureImporter:
       Player Angle 2 Sheet_24: -1664419946
       Player Angle 2 Sheet_23: 399422034
       Player Angle 2 Sheet_15: 1018998918
-      Player Angle 2 Sheet_39: 1200964281
-      Player Angle 2 Sheet_20: -1920097495
+      Player Angle 2 Sheet_28: 1966062400
+      Player Angle 2 Sheet_42: 1579366059
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

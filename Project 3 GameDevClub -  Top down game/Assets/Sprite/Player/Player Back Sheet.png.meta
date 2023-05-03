@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,7 +153,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Back Sheet_0
+      name: Idle Up 1
       rect:
         serializedVersion: 2
         x: 0
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_1
+      name: Idle Up 2
       rect:
         serializedVersion: 2
         x: 48
@@ -195,7 +195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_2
+      name: Idle Up 3
       rect:
         serializedVersion: 2
         x: 96
@@ -216,7 +216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_3
+      name: Idle Up 4
       rect:
         serializedVersion: 2
         x: 144
@@ -237,7 +237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_4
+      name: Idle Up 5
       rect:
         serializedVersion: 2
         x: 192
@@ -258,7 +258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_5
+      name: Idle Up 6
       rect:
         serializedVersion: 2
         x: 240
@@ -279,7 +279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_6
+      name: Moving Up 1
       rect:
         serializedVersion: 2
         x: 0
@@ -300,7 +300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_7
+      name: Moving Up 2
       rect:
         serializedVersion: 2
         x: 48
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_8
+      name: Moving Up 3
       rect:
         serializedVersion: 2
         x: 96
@@ -342,7 +342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_9
+      name: Moving Up 4
       rect:
         serializedVersion: 2
         x: 144
@@ -363,7 +363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_10
+      name: Moving Up 5
       rect:
         serializedVersion: 2
         x: 192
@@ -384,7 +384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_11
+      name: Moving Up 6
       rect:
         serializedVersion: 2
         x: 240
@@ -405,7 +405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_12
+      name: Moving Up 7
       rect:
         serializedVersion: 2
         x: 288
@@ -426,7 +426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_13
+      name: Moving Up 8
       rect:
         serializedVersion: 2
         x: 336
@@ -447,7 +447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_14
+      name: Shoot Up 1
       rect:
         serializedVersion: 2
         x: 0
@@ -468,7 +468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_15
+      name: Shoot Up 2
       rect:
         serializedVersion: 2
         x: 48
@@ -489,7 +489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_16
+      name: Shoot Up 3
       rect:
         serializedVersion: 2
         x: 96
@@ -510,7 +510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_17
+      name: Shoot Up 4
       rect:
         serializedVersion: 2
         x: 144
@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_18
+      name: Shoot Up 5
       rect:
         serializedVersion: 2
         x: 192
@@ -552,7 +552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_19
+      name: Shoot Up 6
       rect:
         serializedVersion: 2
         x: 240
@@ -573,7 +573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_20
+      name: Hitted
       rect:
         serializedVersion: 2
         x: 0
@@ -594,175 +594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73550d6db79398d41ac887c0549ec692
-      internalID: -452032424
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba53560927421444488739ef47fdb735
-      internalID: 712598637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: adf29f6ba46ec584a846b8132594a4d2
-      internalID: 1844207384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_24
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bc654502710d8e4389800060c10c7ad
-      internalID: -1734576225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9e4b0bfc6cb3e054db92502ba838aadf
-      internalID: -769500856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_26
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bd54f1a08f4f40428ef473b5b6a3c52
-      internalID: 2035485482
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_27
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb657979795090d428f221c251826a8f
-      internalID: 1030284747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 532266100b2c66a44afce2f40d33577b
-      internalID: 405598405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Back Sheet_29
+      name: Death 1
       rect:
         serializedVersion: 2
         x: 0
@@ -783,7 +615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_30
+      name: Death 2
       rect:
         serializedVersion: 2
         x: 48
@@ -804,7 +636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_31
+      name: Death 3
       rect:
         serializedVersion: 2
         x: 96
@@ -825,7 +657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_32
+      name: Death 4
       rect:
         serializedVersion: 2
         x: 144
@@ -846,7 +678,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_33
+      name: Death 5
       rect:
         serializedVersion: 2
         x: 192
@@ -867,7 +699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_34
+      name: Death 6
       rect:
         serializedVersion: 2
         x: 240
@@ -888,7 +720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_35
+      name: Death 7
       rect:
         serializedVersion: 2
         x: 288
@@ -909,7 +741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_36
+      name: Death 8
       rect:
         serializedVersion: 2
         x: 336
@@ -930,7 +762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_37
+      name: Death 9
       rect:
         serializedVersion: 2
         x: 384
@@ -951,7 +783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_38
+      name: Death 10
       rect:
         serializedVersion: 2
         x: 432
@@ -972,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_39
+      name: Death 11
       rect:
         serializedVersion: 2
         x: 480
@@ -993,7 +825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_40
+      name: Death 12
       rect:
         serializedVersion: 2
         x: 528
@@ -1014,7 +846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_41
+      name: Death 13
       rect:
         serializedVersion: 2
         x: 576
@@ -1035,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Back Sheet_42
+      name: Death 14
       rect:
         serializedVersion: 2
         x: 624
@@ -1066,48 +898,48 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Back Sheet_37: 1344419815
-      Player Back Sheet_8: 315441894
-      Player Back Sheet_11: -594528258
-      Player Back Sheet_2: 1628738364
-      Player Back Sheet_19: -1743163362
-      Player Back Sheet_14: -2099253602
-      Player Back Sheet_0: -1536681408
-      Player Back Sheet_20: 1145301131
-      Player Back Sheet_9: 1122054230
-      Player Back Sheet_12: -294751420
-      Player Back Sheet_34: -94182149
-      Player Back Sheet_42: -994373220
-      Player Back Sheet_15: -2050996800
-      Player Back Sheet_4: -1613938323
-      Player Back Sheet_30: 117485977
-      Player Back Sheet_29: -1551940048
-      Player Back Sheet_7: 1878096272
-      Player Back Sheet_32: -186522635
-      Player Back Sheet_10: 1635390591
+      Death 9: 1344419815
+      Shoot Up 3: 261508189
+      Moving Up 2: 1878096272
+      Death 8: 820158138
+      Moving Up 1: -31006700
+      Idle Up 3: 1628738364
+      Idle Up 1: -1536681408
+      Death 11: 945834676
+      Idle Up 6: -1591326379
+      Shoot Up 2: -2050996800
+      Moving Up 5: 1635390591
+      Shoot Up 5: -1572044967
+      Idle Up 5: -1613938323
+      Shoot Up 4: -1045359665
+      Death 7: 119195759
+      Moving Up 6: -594528258
+      Idle Up 4: -568715935
       Player Back Sheet_22: 712598637
-      Player Back Sheet_33: 1248854955
-      Player Back Sheet_17: -1045359665
-      Player Back Sheet_36: 820158138
       Player Back Sheet_28: 405598405
+      Shoot Up 6: -1743163362
       Player Back Sheet_25: -769500856
-      Player Back Sheet_13: 544908435
-      Player Back Sheet_41: 114544230
-      Player Back Sheet_3: -568715935
+      Shoot Up 1: -2099253602
+      Death 6: -94182149
       Player Back Sheet_23: 1844207384
-      Player Back Sheet_38: -1355902695
-      Player Back Sheet_16: 261508189
-      Player Back Sheet_40: 1414393614
-      Player Back Sheet_6: -31006700
+      Death 4: -186522635
+      Death 12: 1414393614
+      Death 14: -994373220
+      Hitted: 1145301131
       Player Back Sheet_26: 2035485482
-      Player Back Sheet_18: -1572044967
-      Player Back Sheet_35: 119195759
-      Player Back Sheet_1: 1783635428
-      Player Back Sheet_5: -1591326379
-      Player Back Sheet_39: 945834676
-      Player Back Sheet_31: -42389902
+      Death 2: 117485977
+      Death 13: 114544230
+      Death 3: -42389902
+      Death 5: 1248854955
+      Moving Up 7: -294751420
+      Death 1: -1551940048
+      Moving Up 3: 315441894
+      Death 10: -1355902695
+      Moving Up 8: 544908435
       Player Back Sheet_24: -1734576225
+      Moving Up 4: 1122054230
       Player Back Sheet_27: 1030284747
+      Idle Up 2: 1783635428
       Player Back Sheet_21: -452032424
   spritePackingTag: 
   pSDRemoveMatte: 0

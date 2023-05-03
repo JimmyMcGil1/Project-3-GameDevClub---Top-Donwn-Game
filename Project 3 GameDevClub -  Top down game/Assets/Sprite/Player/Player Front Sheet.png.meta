@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -153,7 +153,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player Front Sheet_0
+      name: Idle Down 1
       rect:
         serializedVersion: 2
         x: 0
@@ -174,7 +174,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_1
+      name: Idle Down 2
       rect:
         serializedVersion: 2
         x: 48
@@ -195,7 +195,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_2
+      name: Idle Down 3
       rect:
         serializedVersion: 2
         x: 96
@@ -216,7 +216,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_3
+      name: Idle Down 4
       rect:
         serializedVersion: 2
         x: 144
@@ -237,7 +237,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_4
+      name: Idle Down 5
       rect:
         serializedVersion: 2
         x: 192
@@ -258,7 +258,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_5
+      name: Idle Down 6
       rect:
         serializedVersion: 2
         x: 240
@@ -279,7 +279,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_6
+      name: Moving Down 1
       rect:
         serializedVersion: 2
         x: 0
@@ -300,7 +300,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_7
+      name: Moving Down 2
       rect:
         serializedVersion: 2
         x: 48
@@ -321,7 +321,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_8
+      name: Moving Down 3
       rect:
         serializedVersion: 2
         x: 96
@@ -342,7 +342,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_9
+      name: Moving Down 4
       rect:
         serializedVersion: 2
         x: 144
@@ -363,7 +363,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_10
+      name: Moving Down 5
       rect:
         serializedVersion: 2
         x: 192
@@ -384,7 +384,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_11
+      name: Moving Down 6
       rect:
         serializedVersion: 2
         x: 240
@@ -405,7 +405,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_12
+      name: Moving Down 7
       rect:
         serializedVersion: 2
         x: 288
@@ -426,7 +426,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_13
+      name: Moving Down 8
       rect:
         serializedVersion: 2
         x: 336
@@ -447,7 +447,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_14
+      name: Shoot Down 1
       rect:
         serializedVersion: 2
         x: 0
@@ -468,7 +468,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_15
+      name: Shoot Down 2
       rect:
         serializedVersion: 2
         x: 48
@@ -489,7 +489,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_16
+      name: Shoot Down 3
       rect:
         serializedVersion: 2
         x: 96
@@ -510,7 +510,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_17
+      name: Shoot Down 4
       rect:
         serializedVersion: 2
         x: 144
@@ -531,7 +531,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_18
+      name: Shoot Down 5
       rect:
         serializedVersion: 2
         x: 192
@@ -552,7 +552,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_19
+      name: Shoot Down 6
       rect:
         serializedVersion: 2
         x: 240
@@ -573,7 +573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_20
+      name: Hitted Down 1
       rect:
         serializedVersion: 2
         x: 0
@@ -594,175 +594,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_21
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35ab161c1f308ab4194085dc6e98c5ad
-      internalID: 877949173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_22
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6910e5b0d7be4a44a14c055b8c74fd3
-      internalID: 1353748573
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_23
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b56b12d8a5b70a64facd0d263552086a
-      internalID: -532787835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_24
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bc12b107cb17b14f99b7adece4c6ef8
-      internalID: 436355941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_25
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dd3cfe84fc2b8584881eff5519df3eeb
-      internalID: -500165777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_26
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 878a44ebb69fcdc46ba00c4e4c5560db
-      internalID: -645132759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_27
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a63544c776e7c76418f04c5a8bd64521
-      internalID: 1230402552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_28
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 44
-        width: 48
-        height: 44
-      alignment: 9
-      pivot: {x: 0.5, y: 0.08}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb6d51d02d46e134db585e772308193f
-      internalID: -1780151923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player Front Sheet_29
+      name: Death Down 1
       rect:
         serializedVersion: 2
         x: 0
@@ -783,7 +615,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_30
+      name: Death Down 2
       rect:
         serializedVersion: 2
         x: 48
@@ -804,7 +636,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_31
+      name: Death Down 3
       rect:
         serializedVersion: 2
         x: 96
@@ -825,7 +657,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_32
+      name: Death Down 4
       rect:
         serializedVersion: 2
         x: 144
@@ -846,7 +678,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_33
+      name: Death Down 5
       rect:
         serializedVersion: 2
         x: 192
@@ -867,7 +699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_34
+      name: Death Down 6
       rect:
         serializedVersion: 2
         x: 240
@@ -888,7 +720,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_35
+      name: Death Down 7
       rect:
         serializedVersion: 2
         x: 288
@@ -909,7 +741,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_36
+      name: Death Down 8
       rect:
         serializedVersion: 2
         x: 336
@@ -930,7 +762,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_37
+      name: Death Down 9
       rect:
         serializedVersion: 2
         x: 384
@@ -951,7 +783,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_38
+      name: Death Down 10
       rect:
         serializedVersion: 2
         x: 432
@@ -972,7 +804,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_39
+      name: Death Down 11
       rect:
         serializedVersion: 2
         x: 480
@@ -993,7 +825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_40
+      name: Death Down 12
       rect:
         serializedVersion: 2
         x: 528
@@ -1014,7 +846,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_41
+      name: Death Down 13
       rect:
         serializedVersion: 2
         x: 576
@@ -1035,7 +867,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player Front Sheet_42
+      name: Death Down 14
       rect:
         serializedVersion: 2
         x: 624
@@ -1066,49 +898,49 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Player Front Sheet_34: 1516733802
-      Player Front Sheet_18: -1504528764
+      Death Down 9: -1916118882
+      Idle Down 2: -1104160665
       Player Front Sheet_22: 1353748573
+      Hitted Down 1: 2025322799
       Player Front Sheet_21: 877949173
-      Player Front Sheet_2: 1223503023
+      Moving Down 2: -1832326302
+      Shoot Down 2: 1859390981
+      Moving Down 6: 1656159753
       Player Front Sheet_23: -532787835
-      Player Front Sheet_17: 709421941
-      Player Front Sheet_42: 2066165736
-      Player Front Sheet_39: -2112699807
-      Player Front Sheet_6: -692173868
-      Player Front Sheet_35: -560007336
+      Death Down 11: -2112699807
+      Shoot Down 6: 112351065
+      Shoot Down 4: 709421941
+      Moving Down 3: 1192939448
+      Shoot Down 5: -1504528764
+      Death Down 13: -479725828
       Player Front Sheet_26: -645132759
-      Player Front Sheet_0: -374403655
-      Player Front Sheet_15: 1859390981
-      Player Front Sheet_30: 1349113173
-      Player Front Sheet_29: 1148606108
-      Player Front Sheet_10: -342929286
-      Player Front Sheet_20: 2025322799
-      Player Front Sheet_33: -1274157780
-      Player Front Sheet_3: -535494218
-      Player Front Sheet_5: -12982490
-      Player Front Sheet_11: 1656159753
-      Player Front Sheet_12: 1190426221
-      Player Front Sheet_13: -843843875
+      Idle Down 3: 1223503023
+      Idle Down 1: -374403655
+      Shoot Down 3: 283058156
+      Idle Down 4: -535494218
+      Death Down 1: 1148606108
+      Death Down 12: -1227512020
+      Idle Down 6: -12982490
+      Death Down 8: 65635584
+      Death Down 7: -560007336
+      Death Down 14: 2066165736
       Player Front Sheet_27: 1230402552
-      Player Front Sheet_7: -1832326302
-      Player Front Sheet_19: 112351065
-      Player Front Sheet_9: -188435345
-      Player Front Sheet_38: 2068806554
-      Player Front Sheet_16: 283058156
-      Player Front Sheet_37: -1916118882
-      Player Front Sheet_1: -1104160665
-      Player Front Sheet_36: 65635584
-      Player Front Sheet_4: 193566738
-      Player Front Sheet_31: 422470420
+      Death Down 3: 422470420
+      Moving Down 7: 1190426221
+      Death Down 5: -1274157780
+      Death Down 10: 2068806554
+      Shoot Down 1: -2141263124
+      Death Down 2: 1349113173
+      Moving Down 8: -843843875
       Player Front Sheet_24: 436355941
+      Moving Down 4: -188435345
+      Moving Down 1: -692173868
       Player Front Sheet_28: -1780151923
-      Player Front Sheet_8: 1192939448
       Player Front Sheet_25: -500165777
-      Player Front Sheet_32: -419096920
-      Player Front Sheet_41: -479725828
-      Player Front Sheet_40: -1227512020
-      Player Front Sheet_14: -2141263124
+      Death Down 4: -419096920
+      Death Down 6: 1516733802
+      Moving Down 5: -342929286
+      Idle Down 5: 193566738
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

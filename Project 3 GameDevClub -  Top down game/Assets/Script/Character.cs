@@ -55,8 +55,9 @@ public abstract class Character : MonoBehaviour {
         _moveDir = new Vector2(0,0);
     }
 
-    public virtual void Attack() {
-        
+    public virtual void Attack(GameObject otherPlayer) {
+        float damageWeight = Random.Range(_minDamageWeight,_maxDamageWeight);
+        SendDamge(gameObject,otherPlayer,damageWeight);
     }
 
     public virtual IEnumerator Dash() {
