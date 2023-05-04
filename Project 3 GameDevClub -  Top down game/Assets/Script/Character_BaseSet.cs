@@ -6,25 +6,29 @@ public class Character_BaseSet : MonoBehaviour
 {
 
     [SerializeField] int maxWeight;
-    int currWeight;
+    public int currWeight { get; private set; }
     public float speed;
     Rigidbody2D rigit;
+    BoxCollider2D box;
     GameObject character_ui;
     Slider weight_slider;
     Text weight_text;
+    [SerializeField] LayerMask groundLayer;
 
     private void Awake()
     {
         //speed = 1 / maxWeight * 200;
         currWeight = maxWeight;
         rigit = GetComponent<Rigidbody2D>();
+       
         character_ui = transform.Find("Character_UI").gameObject;
         weight_slider = character_ui.transform.Find("weight_slider").gameObject.GetComponent<Slider>();
         weight_text = character_ui.transform.Find("weight_text").gameObject.GetComponent<Text>();
         weight_slider.maxValue = maxWeight;
         weight_slider.value = currWeight;
         weight_text.text = $"{currWeight}/{maxWeight}";
-    }
+        box = GetComponent<BoxCollider2D>();
+        }
     private void Start()
     {
         Debug.Log(maxWeight.ToString());
@@ -35,6 +39,7 @@ public class Character_BaseSet : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E)) ChangeWeight(-10);
+        
     }
     void ChangeWeight(int _weight)
     {
@@ -65,4 +70,6 @@ public class Character_BaseSet : MonoBehaviour
         rigit.AddForce(-dir * forcePush * 100 / currWeight, ForceMode2D.Impulse);
 
     }
+   
+    
 }

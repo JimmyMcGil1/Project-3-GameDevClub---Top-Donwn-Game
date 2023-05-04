@@ -7,10 +7,16 @@ public class SanDauSeeSaw : MonoBehaviour
     public float rotationSpeed = 1f;
     Vector3 customAxis = new Vector3(0, 1f, 0f);
     GameObject[] players;
+    seesaw_sensor left;
+    seesaw_sensor right;
+
     float balancer = 0;
+    
     private void Awake()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
+        left = transform.Find("left sensor").gameObject.GetComponent<seesaw_sensor>();
+        right = transform.Find("right sensor").gameObject.GetComponent<seesaw_sensor>();
     }
     void Start()
     {
@@ -19,8 +25,13 @@ public class SanDauSeeSaw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.E)) LechGocDuoiTrai();
-        if (Input.GetKey(KeyCode.R)) LechGocDuoiPhai();
+       
+            if (Input.GetKey(KeyCode.E) && balancer > -1) LechGocDuoiTrai();
+            if (Input.GetKey(KeyCode.R) && balancer < 1) LechGocDuoiPhai();
+            if (left.totalWeight < right.totalWeight && balancer < 1 ) LechGocDuoiPhai();
+            else if (left.totalWeight > right.totalWeight && balancer > -1 ) LechGocDuoiTrai();
+       
+      
         if (balancer < 0)
         {
             StartCoroutine(DragCharacter(Vector3.left));
@@ -66,7 +77,7 @@ public class SanDauSeeSaw : MonoBehaviour
         {
             foreach (var player in players)
             {
-                player.GetComponent<Rigidbody2D>().AddForce(0.01f * dir, ForceMode2D.Impulse);
+                player.GetComponent<Rigidbody2D>().AddForce(0.005f * dir, ForceMode2D.Impulse);
             }
             yield return new WaitForSeconds(0.5f);
         }
