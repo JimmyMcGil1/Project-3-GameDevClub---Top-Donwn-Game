@@ -188,7 +188,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 3.050003, y: -0.65999985}
   m_SizeDelta: {x: -4.22, y: -19}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2704,19 +2704,35 @@ CompositeCollider2D:
   - m_Collider: {fileID: 1088612652}
     m_ColliderPaths:
     - - X: 80000000
-        Y: 40000000
-      - X: -80000000
-        Y: 40000000
-      - X: -80000000
-        Y: -40000000
+        Y: 5000000
+      - X: 40000000
+        Y: 5000000
+      - X: 40000000
+        Y: 15000000
+      - X: 50000000
+        Y: 15000000
+      - X: 50000000
+        Y: 5000000
       - X: 80000000
-        Y: -40000000
+        Y: 5000000
+      - X: 80000000
+        Y: 45000000
+      - X: -80000000
+        Y: 45000000
+      - X: -80000000
+        Y: -35000000
+      - X: 80000000
+        Y: -35000000
   m_CompositePaths:
     m_Paths:
-    - - {x: 7.9999704, y: -4}
-      - {x: 7.9999704, y: 4}
-      - {x: -8, y: 3.999971}
-      - {x: -7.9999704, y: -4}
+    - - {x: 7.9999704, y: -3.5}
+      - {x: 7.9999704, y: 4.5}
+      - {x: -8, y: 4.499971}
+      - {x: -7.9999704, y: -3.5}
+    - - {x: 5, y: 0.5000294}
+      - {x: 4, y: 0.5000294}
+      - {x: 4.0000296, y: 1.5}
+      - {x: 5, y: 1.4999707}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &1088612651
@@ -3044,6 +3060,7 @@ GameObject:
   - component: {fileID: 1539263962}
   - component: {fileID: 1539263961}
   - component: {fileID: 1539263965}
+  - component: {fileID: 1539263966}
   m_Layer: 0
   m_Name: ' Character 3 '
   m_TagString: Player
@@ -3200,6 +3217,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxWeight: 100
   speed: 0
+--- !u!114 &1539263966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539263958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68d6994c539cdd7438b742e0401f2d69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1 &1567905623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,7 +3318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1569206565
 Animator:
   serializedVersion: 5
@@ -3299,7 +3329,7 @@ Animator:
   m_GameObject: {fileID: 1569206563}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 7fab39b60b60e9c4f9c19b219b5b2754, type: 2}
+  m_Controller: {fileID: 9100000, guid: 65796d448b8f004418b3870e8f560e7a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3369,7 +3399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1569206563}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.28, y: 0.21, z: 0}
+  m_LocalPosition: {x: -1.28, y: -0.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3919,7 +3949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2057637987
 Animator:
   serializedVersion: 5

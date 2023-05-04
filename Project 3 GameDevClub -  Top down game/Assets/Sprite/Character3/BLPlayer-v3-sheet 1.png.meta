@@ -1,0 +1,5385 @@
+fileFormatVersion: 2
+guid: 9bac0ee4085ca2a4597df6db2a90f5c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1924
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c639d73b97caaa84c851b086992cd99a
+      internalID: -398857744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1924
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc8a9b01f6c86d4fb8d61f571795599
+      internalID: -2146305686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1924
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24cd0c13ec91dd4683bc9d6b30846b4
+      internalID: 1226727337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1924
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74d06256b328dd4a94e0f696bed842f
+      internalID: 866438846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c2165b486e2994089277159d581a1e
+      internalID: -538410901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac6448706d85042a34b9e0fe96b042
+      internalID: 485667371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b513694981dd6468260b10f4c4c978
+      internalID: 1593528064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d6650dbb09db94aa0f6a0829961da6
+      internalID: -1163231260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1f0f96776e748845a72d879e9d8457d
+      internalID: 40867900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105d138c01fe6fe4aa50d1b1c50e2304
+      internalID: -611853205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646af9ec38410024dbaad9ed3ebba6b8
+      internalID: -1215152537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1183a6e0b0f6549b91233204a33a21
+      internalID: 2124940144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af89949e89c13db47b778cc8b13d4d0c
+      internalID: -2031327990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a1317f567747b4e913e1e3c4269239
+      internalID: -272708441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a6382c9d4e6a14b99f2a5583511881
+      internalID: -524433055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1850
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25d5c683a123c74992e5ab5a8d2caaa
+      internalID: 23646990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2a4395adabb14429f3c50cb32700f8
+      internalID: 2110770546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c2131b4d0f4a544b942938065905de
+      internalID: -1840375363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442d23337bdd96346bc06e698765c2f5
+      internalID: -1203725723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf8535c8737590408c2411626ff4d88
+      internalID: -1821669984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_20
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df191eb7a890b2b4885f8048595e56ab
+      internalID: -1080228954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_21
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef45ee3337a725a4cb47f4ace2e4ca6a
+      internalID: 1948537959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_22
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be8f5a53cb2a8e4ca4ed0ab90c2fbfb
+      internalID: 638480120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_23
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba76a2a67268054b92dcc30a5b9018e
+      internalID: 1120481487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_24
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767d242433cc98041847fe5cecdec621
+      internalID: -2134521061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_25
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905e5801a8a488647a273142359be006
+      internalID: -638411497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_26
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec59f20b94616d045a85ef78908b09c0
+      internalID: -823503593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_27
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1776
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf6aee23acd5145804a76afa0821a2
+      internalID: -320608175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ceaf2081a049b5469bb7bb948c8d2ed
+      internalID: -30617030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5a6b031d06ee84fae38cb71865913e
+      internalID: 1229528541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_30
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c378bd489663c7648a500c0e3cac8003
+      internalID: 1135456822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_31
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2674aeb26fd2504daaba76327e58fa1
+      internalID: 1401591046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_32
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aad95f5e9c5a2644a9999de302c9640
+      internalID: 230603143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_33
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceb8a5a2ec113649a19bfcd80cc19c0
+      internalID: -367894938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d712cc8b3440ea544bd8e99297a9e09a
+      internalID: -1999614633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_35
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a1686d1966a3b42b619baf4bf671a1
+      internalID: -1759940186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_36
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4777748906826dd4da6f652e28225bbb
+      internalID: -818368441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_37
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84f548e9c7b6ed4687019d346b1faf6
+      internalID: 482418257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_38
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e590dbdf021c85d45adba77a89b65c8f
+      internalID: 497123479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_39
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1702
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd610b9e676f3434c81cc242a8014931
+      internalID: -1882568948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0951b5ceeab344b8f8729485bd391e
+      internalID: -916069254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221e4475b400de7408715665312ce601
+      internalID: -2028679798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_42
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac97f84090b4651458ec172de777f78c
+      internalID: -1109262532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_43
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c04af295ddc32e43b0c1f6e33183ad5
+      internalID: 928939222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_44
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef87ab53bf1ec2c4098f76e4a74bcbce
+      internalID: 1286443695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_45
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b73fc7534d61574f8258a8b2080d99b
+      internalID: -2015015844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_46
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e0482fc8dbef4f9766ea61f64bcee
+      internalID: 835251520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_47
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6153121d3b3e2f4dbf0a503e07331db
+      internalID: 178856907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_48
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a903cb81f1fda4cb6ee6b7a5bf5672
+      internalID: -687772698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_49
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd2c6312a80c03428192e6a7efc9c11
+      internalID: 340987248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_50
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353e978fe14cb7b4294b56dbf4b70a1f
+      internalID: -1676038892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_51
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1628
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c888b4c1385db4489fc98d5a9c755a
+      internalID: -342943454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001c0096256aa3a45b278652fb6d8edf
+      internalID: 1232548908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_53
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0198ef0452600f24f9c94ec72d1696e9
+      internalID: -558552764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30dad51f6d398024e95f05dc398e564f
+      internalID: -1850207148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_55
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e655c5c994016149957a1078d5f7f37
+      internalID: -861942700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2ffba858d94924eb8d20fc7d3f0b88
+      internalID: -320568850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_57
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1666395fba5c24b8654da09e2e1b0c
+      internalID: 914221070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_58
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4150c0144d0c74f46917d31f006f65c1
+      internalID: -629803442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_59
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ec0aa95ad306648b6cc639d996ad7c
+      internalID: -1253770821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_60
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f9093d5655f847ad0388de4dad54e
+      internalID: -1197520643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_61
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1554
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4e5a26a61fb7f4888d58177ca8be2c
+      internalID: 2078441421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807f25711ef7dd041976fa4784c046a5
+      internalID: -248435492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_63
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb222d027f92b048bc098b2dec69932
+      internalID: 1479662038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_64
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e2e7ae90222448954c8cb306b9379
+      internalID: -1614437307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_65
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675fee568a944fc449793b984f89918f
+      internalID: -78230090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_66
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cdc725f7642d1478c5e1c27a6aad71
+      internalID: -994868643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_67
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d374ba658a8dc24ebd720fe99d19ccd
+      internalID: 1461443636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_68
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc36aeecc768d934db0820e189bb8e3d
+      internalID: 677571620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_69
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85637254682c9941a0012f7ed586080
+      internalID: 1413410380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_70
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d485c30d01b80d4abd82d6a175728b2
+      internalID: -1888415469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_71
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1480
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80625808e75cf042b10414880e40498
+      internalID: 1359701718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ebdef62ef0af54daf4cb7ab05534f5
+      internalID: 1513701139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_73
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b71857a800612747a36fce40a661955
+      internalID: 1811729171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_74
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56ee838bb47f364fa9e890f12ca007b
+      internalID: 1566732442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_75
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7165b4f417e470641962a56ad21c418c
+      internalID: 1978589962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_76
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cce76d460dac3d41a7a728c3bcabcf0
+      internalID: 677721839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_77
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a3b87e95df9d34db1a5e4605acad32
+      internalID: -1767179405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_78
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e8467afbf200241a4d1f0654bf72fd
+      internalID: -1263803751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_79
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf6bab0e3fd7234391559dbfe68c7d7
+      internalID: -125367132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_80
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389da5a7ac8c6684a93d553eb979a7c8
+      internalID: 440604396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_81
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b42f688c1f7572419ecb6540ce05c04
+      internalID: 1363218145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_82
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0019c6e810185419507930dea90c49
+      internalID: 799638623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_83
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063f99fbfaf07414ea190ceb98f33a59
+      internalID: -1181522112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_84
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e169968b80f6da4d8b21e994b8db9be
+      internalID: 1039275698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_85
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57b3fd88ba553049832a7f19b66eb30
+      internalID: 672400755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1406
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedbfb8d65d8eee4c8565896c15aa837
+      internalID: -191682156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcd238fbe3d83e4882ff9b2f8d5fff4
+      internalID: 1796015598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_88
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f2dcde4fa889a498ad4c32719eeb10
+      internalID: 918301515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_89
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751a1e72c3d94a149a73075835f8133a
+      internalID: 1960820617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_90
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f61d1c5f5d9b0c409bd43d300090257
+      internalID: -1265336049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_91
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78d47d89dce93644ba4fdc7f17ad386
+      internalID: -1634415618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_92
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cd54f8b3c84184ba01197d004388ae
+      internalID: 1441504658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_93
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995f42195b5d7574c99cfba8a239ce0e
+      internalID: -1468964970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_94
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b08790192ef5634eac5c4fc53721d00
+      internalID: -1781833022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_95
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6eb8692106086f4b9716c54799a560d
+      internalID: -814809158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_96
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1332
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d63efc7ffc5e4aa18d7e4bbd0faeb
+      internalID: -1084551416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607005d1fd790dc4db026e3bf78847f1
+      internalID: -101730401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_98
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37d9207e410f6469e9ced11f1ffc21
+      internalID: 430749153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_99
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cd7a7246af7b549a0229dde48889f0
+      internalID: -988533664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_100
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165e03ad16065ae4792ddb7d68c0c6aa
+      internalID: -1126074231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_101
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b905cf975a133634ebdd2516b9c01b9f
+      internalID: -644331769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_102
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb458f0bcdcac43b31a63ef2808be0
+      internalID: -397103262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_103
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be520a169020c8149b99e3a9a2b1c6e3
+      internalID: 216586497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_104
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0646ecee9ec15c14b924e5dc6444af36
+      internalID: 1343112656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_105
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd3aee5faad40448b68fbfb696a8b5
+      internalID: -696371850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_106
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1258
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a53edef6e0e29540af5430a3c191681
+      internalID: -512995222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_107
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2744df54647365f4b87a0b3b4c6c3940
+      internalID: -2105461777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_108
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca253bd8dc95f224eb807c80c307d0cb
+      internalID: 2039663387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_109
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924996fe7fded2d45905131d37a0e188
+      internalID: -116207792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_110
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7707859672f79c45abbf1e6562e0bef
+      internalID: -2123729522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_111
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e264fcfe37d7cb449a7241654198cf6
+      internalID: 658576561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_112
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75152185f73a2ec44a964b474c2d647c
+      internalID: -189980828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_113
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5557f6da6c273140b9190c78d49bc9b
+      internalID: 942967166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_114
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5a7395e54d1314db3951a163fc933e
+      internalID: 1494511865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_115
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c6afa96864b874eae6f96a2b39be80
+      internalID: -549114195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_116
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626216a94aa9b4b4f9bab54211740ea3
+      internalID: -1167213528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_117
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f89d1f470519640b49797bd7abd4bf
+      internalID: 10395167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_118
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52925d456d17eff4daca68b8eec7dfd7
+      internalID: -851876672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_119
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcb5e36efc817948a5bcb83d619f027
+      internalID: -1043182517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_120
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f38dad971c2b614b8dbdc6adc87a871
+      internalID: -2009881589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 1184
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d88893d382d3349ae89282bf9b4dbb
+      internalID: 1289719896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dd338bdce65ce419070562ce05720b
+      internalID: -2140918951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_123
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48e8e9c6c42b7e439406b903d377234
+      internalID: -1678314594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_124
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0513af51e38dab46842ef65f88d272c
+      internalID: -2123464445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_125
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2affed18104bc404a89640b2c5285864
+      internalID: -684315219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_126
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d481793f9cbf642a283b40ea6c059a
+      internalID: -1045834601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_127
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67c5c4f1840f6c419d096c5d8d2a2a7
+      internalID: -1883132842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_128
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b05553d4256bf4bb145ab1f0c38d49
+      internalID: 365907789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_129
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ca1b0bb16e22a48b81674629b1c4f6
+      internalID: 1960854987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_130
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2daac2905717e49b0b4a1f50dc14a7
+      internalID: -1755978653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_131
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1110
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6be0bbf7b7403418791e5061abddaa
+      internalID: -1350278384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4b4d80f09a38a4496f0fce0d767061
+      internalID: 522795504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_133
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f9c290ac33cc24399b8161231a30e3
+      internalID: -1035205885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_134
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5301cd2a9c900e418fd1f2a9c814617
+      internalID: 370317933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_135
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540e80fbbf65e3f40b342afcf5d724cb
+      internalID: -1500951739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_136
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cf4969ad51afb42a1b844e3eff38fa
+      internalID: -1985808211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_137
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f7296166e25eb4ca1c6157cc9ca628
+      internalID: 20068614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_138
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f11684c3a3fba4494644daab6c5515
+      internalID: 796507591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_139
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a9d6c838f34f7478a4387243549c70
+      internalID: -877559601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_140
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15697c8224eae0b438b3ca662ea139b4
+      internalID: -475044878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_141
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1036
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0573800584435cf499bdf019b6b46d2e
+      internalID: 503470982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f443e8f087523442a80202a30639ec9
+      internalID: 1725788771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_143
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2bfb01a09c44044a0872eafca2c697
+      internalID: 1332543836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_144
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8666e3ce7b4434ba8da26b8147b2ba
+      internalID: -961882302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_145
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779c9031408632545b1ac7564bc952c4
+      internalID: -1105595062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_146
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6e0118c15609143a80690bd073a03a
+      internalID: -1471352901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_147
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9cc003f97da624aaf2d55a83a38c22
+      internalID: -1440744849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_148
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5b122e230c0934ebe97a8870003200
+      internalID: 494899700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_149
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efd9ed6363ecde4699b0279a420fbc0
+      internalID: 925849597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_150
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81797b3b0fda4b48a007cf9063263d6
+      internalID: 1448323340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_151
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa68f20352870394bb3b82a2738c3b7a
+      internalID: -1379878825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_152
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca278f25999dff7488d40233c56e19f2
+      internalID: 1032169993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_153
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5283864af8335124fb5ce6c900b96496
+      internalID: 1989576469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_154
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedefad4b382d104bb317fd6bb432bcd
+      internalID: 1137789041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_155
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607c7954a6ea88e4bbd253266661fad2
+      internalID: -1312414139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 962
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08df1f60106510843b6f57892193ce4f
+      internalID: -1311044428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_157
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4a09d90f7046e43ad16dc86107a877
+      internalID: -1511718360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_158
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046b566e98879a042be4ee5db542ada3
+      internalID: 1242722432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_159
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a252cceff5014b9cf7da44064eba0
+      internalID: 1589201823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_160
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c34f9e8a4e945448ae9ff8ef37eb97
+      internalID: -194832697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_161
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a170723e8a7a99b45aecd96107ad4466
+      internalID: -961727781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_162
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 923fc3c7f8ed083439fa73d07ac30f3a
+      internalID: -1732467990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_163
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f75185149ffd6445b83aece5e8e5ecc
+      internalID: -2020193055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_164
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c880032279e099c458a4a1ed4ac672bf
+      internalID: 529445670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_165
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb528e1804847945a9cba811063121f
+      internalID: 1856356761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_166
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 888
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9091372a7b90040b472ec80b03a104
+      internalID: 1234120730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a92455a3074c6f4c924ebeee9facb93
+      internalID: 1311959553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_168
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb2d03e781a1d945a505f44e5696f39
+      internalID: -1812656181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_169
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d64fb80dfa83d45bd69162d18afc3e
+      internalID: -1134268578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_170
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d63f8b2d39be4aafe5f6fe17476e3
+      internalID: -1354121843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_171
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0fe0dd4cc0bf649a66d02a04fb3e26
+      internalID: 395074892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_172
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376cd8c19f3822849bd671fe1eda4e15
+      internalID: 353787074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_173
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f0059e816303644b1b1aaf23c60c4c
+      internalID: 1070638701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_174
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc3197b4b8999242ae15f7eabd9c46d
+      internalID: -257390306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_175
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c12ada39c283904c87c530dbbf8bbd5
+      internalID: 253051862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_176
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 814
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099afc70c02f2d84da90fb4ec834afbd
+      internalID: 1057952001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f816bc2330df9e742b08048cb952400b
+      internalID: 1464054097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_178
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9707a8a02fb1b4d8d9c2ddfb10ce91
+      internalID: 130316324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_179
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fbf7a38e2d89b44920e9587e23b203
+      internalID: 980601046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_180
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239a3e0702ea5234f90c78ad72d613df
+      internalID: 971393214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_181
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ec93f46a85bfc49a676ec65ded00c5
+      internalID: -1086947567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_182
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30abe970c86c5954eb81500f9a82daef
+      internalID: -1876486924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_183
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaebdd44704023448cef38c28810485
+      internalID: -1866122143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_184
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f5a0c967280714da65166743e2a4e3
+      internalID: 1177422899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_185
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88619c04c0f0384e962981da42fcb81
+      internalID: 608872801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_186
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97750ac397068f04190dd66508d34934
+      internalID: 1919713689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_187
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39925fb4e3c078c44adeb3496d2e0a10
+      internalID: 621116043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_188
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40126855c202442438f7bccc0f2667c6
+      internalID: -1648080369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_189
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a6b9990cd2a7a4cbf2691b03d7a0b7
+      internalID: -1383777900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_190
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f781214a060f14e98c3c054e08c8b2
+      internalID: -1211111299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_191
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 740
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575f9dc493982e943957b7d5c23a941a
+      internalID: 1906472275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 666
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f2747d6e32548543ad7722f5044f4ad
+      internalID: 716582473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_193
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 666
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4f1f0d355c4ef47b3a359172f0466b
+      internalID: 1898841215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_194
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 666
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525aefafde104d4f8fac78ece8a7d62
+      internalID: -889212790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_195
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 666
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0380e4e732b35447b3fa91e82d1a3f5
+      internalID: 953665035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_196
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 666
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e3ce8bb2eea904d95d4a73291f3b92
+      internalID: 301520092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_197
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453c4f1d93598e24088228a165a3a61a
+      internalID: -1591946925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_198
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 592
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19b3d02c50df1e4ea447d1218ef8b0f
+      internalID: 742054329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_199
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 592
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1b0a37ddb2ff84b99b4c626d0c6d7a
+      internalID: 147247657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_200
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 592
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c25a2da98cc2498019ba9d96e1a22
+      internalID: -484791343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_201
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 592
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769e673e51f706548ac044f220d847c7
+      internalID: -1784701340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_202
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979a93c3e3e19e943999007ae6c76e3e
+      internalID: -478620878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_203
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 518
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f92c0f3b5eb434d89a63f0e2e950b4
+      internalID: 1478599736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_204
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 518
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78240363d383b3844ba44093e9bd00db
+      internalID: -417686964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_205
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 518
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a87e4673750dbb44a933284d944fac1
+      internalID: 1340826090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_206
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 518
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b0ca01bd410764cbd955cf116e0c86
+      internalID: -1480876805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274537c15230f54498ce0bb4ed3c7703
+      internalID: -1565467140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_208
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 444
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db3f7504f38054686cfbec2e5ab194
+      internalID: 662642393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_209
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 444
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1bc84cf37fda047b07714f4adb7c03
+      internalID: -1263674424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_210
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 444
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ffe90cbf9bad148bee7f27b9ce93e1
+      internalID: -586234146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_211
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 444
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7879c1e1ab01d48a863c3ac27343e0
+      internalID: 2045256203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 370
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9a0a36414121b4f8c9af7da39a6eda
+      internalID: 530681955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_213
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 370
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db36197aa92ae2d44a0e62af65606ebe
+      internalID: 869678705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd55b8301b6ded043b4eadcdd6009cd2
+      internalID: -1158359988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_215
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814d3225be396a74386a9f8e8fb320cf
+      internalID: -352398884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bcc64778f9d4b4cb62b79edf6799df
+      internalID: -852219300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_217
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 222
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f92c4efe6b4384fad69990183e2dd5
+      internalID: 661982417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b3d636fed0739499efa8d8e40cf84b
+      internalID: -250884218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_219
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 148
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a167c9c9afe11ad4cb4de0f5bc13803a
+      internalID: 116885871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f3a62f23a0c6442bf9cce04986a9b4
+      internalID: -1101207310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_221
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbff04f4cf22404c95adbeee47a9ee3
+      internalID: 1096725581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_222
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b493a68a54504bbab63200e8c775f
+      internalID: -1865432255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_223
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1a56db3fa1748428ded7c9cd5ad9b6
+      internalID: -909552660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_224
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c899884516a60d48a326ad4d5163ee7
+      internalID: 2120975821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_225
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63b57abb3e01ea4ea99ca8aba901572
+      internalID: -1806304567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_226
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a034e58de50267d418507f55b9d9d60c
+      internalID: -52537390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_227
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9818df4067b79c3408b2a57c09aee809
+      internalID: 1946845163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_228
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b8d508389ffa0489c1e0e79d2eda7e
+      internalID: -1306195475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_229
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443406363afca464e8cf4c247655cc11
+      internalID: 531733062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_230
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce0e94166491664790e8f51ebdb2deb
+      internalID: -1373944089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_231
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8e4ffa54205864a95ef0bdc3bf6087
+      internalID: 798390064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_232
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1096bad1d29d943a1b5db7f477abdd
+      internalID: 2019662895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_233
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd2e79f0b2af95469a9667aba0c34ed
+      internalID: 1137248939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_234
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 74
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f0b9b67cb12c4f8edf6a74f3c9154
+      internalID: -1228907542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_235
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307abf36f6843064d8138512f930f645
+      internalID: 541158526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BLPlayer-v3-sheet_236
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 74
+        height: 74
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5fe1b1bd1fd3b409ae956b56b650a1
+      internalID: -256356497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BLPlayer-v3-sheet_10: -1215152537
+      BLPlayer-v3-sheet_78: -1263803751
+      BLPlayer-v3-sheet_8: 40867900
+      BLPlayer-v3-sheet_12: -2031327990
+      BLPlayer-v3-sheet_24: -2134521061
+      BLPlayer-v3-sheet_137: 20068614
+      BLPlayer-v3-sheet_76: 677721839
+      BLPlayer-v3-sheet_138: 796507591
+      BLPlayer-v3-sheet_191: 1906472275
+      BLPlayer-v3-sheet_72: 1513701139
+      BLPlayer-v3-sheet_3: 866438846
+      BLPlayer-v3-sheet_161: -961727781
+      BLPlayer-v3-sheet_21: 1948537959
+      BLPlayer-v3-sheet_193: 1898841215
+      BLPlayer-v3-sheet_212: 530681955
+      BLPlayer-v3-sheet_7: -1163231260
+      BLPlayer-v3-sheet_56: -320568850
+      BLPlayer-v3-sheet_136: -1985808211
+      BLPlayer-v3-sheet_37: 482418257
+      BLPlayer-v3-sheet_145: -1105595062
+      BLPlayer-v3-sheet_180: 971393214
+      BLPlayer-v3-sheet_46: 835251520
+      BLPlayer-v3-sheet_108: 2039663387
+      BLPlayer-v3-sheet_22: 638480120
+      BLPlayer-v3-sheet_110: -2123729522
+      BLPlayer-v3-sheet_120: -2009881589
+      BLPlayer-v3-sheet_63: 1479662038
+      BLPlayer-v3-sheet_4: -538410901
+      BLPlayer-v3-sheet_1: -2146305686
+      BLPlayer-v3-sheet_32: 230603143
+      BLPlayer-v3-sheet_126: -1045834601
+      BLPlayer-v3-sheet_163: -2020193055
+      BLPlayer-v3-sheet_135: -1500951739
+      BLPlayer-v3-sheet_77: -1767179405
+      BLPlayer-v3-sheet_215: -352398884
+      BLPlayer-v3-sheet_178: 130316324
+      BLPlayer-v3-sheet_112: -189980828
+      BLPlayer-v3-sheet_23: 1120481487
+      BLPlayer-v3-sheet_69: 1413410380
+      BLPlayer-v3-sheet_162: -1732467990
+      BLPlayer-v3-sheet_19: -1821669984
+      BLPlayer-v3-sheet_6: 1593528064
+      BLPlayer-v3-sheet_207: -1565467140
+      BLPlayer-v3-sheet_221: 1096725581
+      BLPlayer-v3-sheet_144: -961882302
+      BLPlayer-v3-sheet_17: -1840375363
+      BLPlayer-v3-sheet_73: 1811729171
+      BLPlayer-v3-sheet_167: 1311959553
+      BLPlayer-v3-sheet_234: -1228907542
+      BLPlayer-v3-sheet_14: -524433055
+      BLPlayer-v3-sheet_96: -1084551416
+      BLPlayer-v3-sheet_121: 1289719896
+      BLPlayer-v3-sheet_52: 1232548908
+      BLPlayer-v3-sheet_127: -1883132842
+      BLPlayer-v3-sheet_95: -814809158
+      BLPlayer-v3-sheet_195: 953665035
+      BLPlayer-v3-sheet_182: -1876486924
+      BLPlayer-v3-sheet_28: -30617030
+      BLPlayer-v3-sheet_151: -1379878825
+      BLPlayer-v3-sheet_158: 1242722432
+      BLPlayer-v3-sheet_86: -191682156
+      BLPlayer-v3-sheet_197: -1591946925
+      BLPlayer-v3-sheet_164: 529445670
+      BLPlayer-v3-sheet_199: 147247657
+      BLPlayer-v3-sheet_192: 716582473
+      BLPlayer-v3-sheet_209: -1263674424
+      BLPlayer-v3-sheet_146: -1471352901
+      BLPlayer-v3-sheet_218: -250884218
+      BLPlayer-v3-sheet_220: -1101207310
+      BLPlayer-v3-sheet_130: -1755978653
+      BLPlayer-v3-sheet_229: 531733062
+      BLPlayer-v3-sheet_9: -611853205
+      BLPlayer-v3-sheet_91: -1634415618
+      BLPlayer-v3-sheet_75: 1978589962
+      BLPlayer-v3-sheet_83: -1181522112
+      BLPlayer-v3-sheet_214: -1158359988
+      BLPlayer-v3-sheet_181: -1086947567
+      BLPlayer-v3-sheet_35: -1759940186
+      BLPlayer-v3-sheet_82: 799638623
+      BLPlayer-v3-sheet_105: -696371850
+      BLPlayer-v3-sheet_53: -558552764
+      BLPlayer-v3-sheet_177: 1464054097
+      BLPlayer-v3-sheet_119: -1043182517
+      BLPlayer-v3-sheet_26: -823503593
+      BLPlayer-v3-sheet_16: 2110770546
+      BLPlayer-v3-sheet_122: -2140918951
+      BLPlayer-v3-sheet_232: 2019662895
+      BLPlayer-v3-sheet_34: -1999614633
+      BLPlayer-v3-sheet_184: 1177422899
+      BLPlayer-v3-sheet_223: -909552660
+      BLPlayer-v3-sheet_123: -1678314594
+      BLPlayer-v3-sheet_100: -1126074231
+      BLPlayer-v3-sheet_152: 1032169993
+      BLPlayer-v3-sheet_81: 1363218145
+      BLPlayer-v3-sheet_169: -1134268578
+      BLPlayer-v3-sheet_5: 485667371
+      BLPlayer-v3-sheet_31: 1401591046
+      BLPlayer-v3-sheet_80: 440604396
+      BLPlayer-v3-sheet_54: -1850207148
+      BLPlayer-v3-sheet_94: -1781833022
+      BLPlayer-v3-sheet_187: 621116043
+      BLPlayer-v3-sheet_27: -320608175
+      BLPlayer-v3-sheet_33: -367894938
+      BLPlayer-v3-sheet_44: 1286443695
+      BLPlayer-v3-sheet_45: -2015015844
+      BLPlayer-v3-sheet_38: 497123479
+      BLPlayer-v3-sheet_79: -125367132
+      BLPlayer-v3-sheet_58: -629803442
+      BLPlayer-v3-sheet_160: -194832697
+      BLPlayer-v3-sheet_224: 2120975821
+      BLPlayer-v3-sheet_43: 928939222
+      BLPlayer-v3-sheet_172: 353787074
+      BLPlayer-v3-sheet_42: -1109262532
+      BLPlayer-v3-sheet_68: 677571620
+      BLPlayer-v3-sheet_133: -1035205885
+      BLPlayer-v3-sheet_175: 253051862
+      BLPlayer-v3-sheet_115: -549114195
+      BLPlayer-v3-sheet_41: -2028679798
+      BLPlayer-v3-sheet_98: 430749153
+      BLPlayer-v3-sheet_132: 522795504
+      BLPlayer-v3-sheet_188: -1648080369
+      BLPlayer-v3-sheet_70: -1888415469
+      BLPlayer-v3-sheet_104: 1343112656
+      BLPlayer-v3-sheet_155: -1312414139
+      BLPlayer-v3-sheet_201: -1784701340
+      BLPlayer-v3-sheet_101: -644331769
+      BLPlayer-v3-sheet_168: -1812656181
+      BLPlayer-v3-sheet_194: -889212790
+      BLPlayer-v3-sheet_102: -397103262
+      BLPlayer-v3-sheet_179: 980601046
+      BLPlayer-v3-sheet_154: 1137789041
+      BLPlayer-v3-sheet_66: -994868643
+      BLPlayer-v3-sheet_39: -1882568948
+      BLPlayer-v3-sheet_157: -1511718360
+      BLPlayer-v3-sheet_174: -257390306
+      BLPlayer-v3-sheet_59: -1253770821
+      BLPlayer-v3-sheet_173: 1070638701
+      BLPlayer-v3-sheet_50: -1676038892
+      BLPlayer-v3-sheet_71: 1359701718
+      BLPlayer-v3-sheet_61: 2078441421
+      BLPlayer-v3-sheet_92: 1441504658
+      BLPlayer-v3-sheet_111: 658576561
+      BLPlayer-v3-sheet_166: 1234120730
+      BLPlayer-v3-sheet_49: 340987248
+      BLPlayer-v3-sheet_189: -1383777900
+      BLPlayer-v3-sheet_185: 608872801
+      BLPlayer-v3-sheet_13: -272708441
+      BLPlayer-v3-sheet_48: -687772698
+      BLPlayer-v3-sheet_117: 10395167
+      BLPlayer-v3-sheet_55: -861942700
+      BLPlayer-v3-sheet_124: -2123464445
+      BLPlayer-v3-sheet_129: 1960854987
+      BLPlayer-v3-sheet_230: -1373944089
+      BLPlayer-v3-sheet_60: -1197520643
+      BLPlayer-v3-sheet_67: 1461443636
+      BLPlayer-v3-sheet_176: 1057952001
+      BLPlayer-v3-sheet_85: 672400755
+      BLPlayer-v3-sheet_87: 1796015598
+      BLPlayer-v3-sheet_65: -78230090
+      BLPlayer-v3-sheet_233: 1137248939
+      BLPlayer-v3-sheet_89: 1960820617
+      BLPlayer-v3-sheet_125: -684315219
+      BLPlayer-v3-sheet_116: -1167213528
+      BLPlayer-v3-sheet_153: 1989576469
+      BLPlayer-v3-sheet_196: 301520092
+      BLPlayer-v3-sheet_198: 742054329
+      BLPlayer-v3-sheet_202: -478620878
+      BLPlayer-v3-sheet_228: -1306195475
+      BLPlayer-v3-sheet_205: 1340826090
+      BLPlayer-v3-sheet_0: -398857744
+      BLPlayer-v3-sheet_203: 1478599736
+      BLPlayer-v3-sheet_74: 1566732442
+      BLPlayer-v3-sheet_25: -638411497
+      BLPlayer-v3-sheet_204: -417686964
+      BLPlayer-v3-sheet_206: -1480876805
+      BLPlayer-v3-sheet_236: -256356497
+      BLPlayer-v3-sheet_213: 869678705
+      BLPlayer-v3-sheet_217: 661982417
+      BLPlayer-v3-sheet_134: 370317933
+      BLPlayer-v3-sheet_36: -818368441
+      BLPlayer-v3-sheet_131: -1350278384
+      BLPlayer-v3-sheet_227: 1946845163
+      BLPlayer-v3-sheet_219: 116885871
+      BLPlayer-v3-sheet_210: -586234146
+      BLPlayer-v3-sheet_47: 178856907
+      BLPlayer-v3-sheet_216: -852219300
+      BLPlayer-v3-sheet_93: -1468964970
+      BLPlayer-v3-sheet_11: 2124940144
+      BLPlayer-v3-sheet_2: 1226727337
+      BLPlayer-v3-sheet_15: 23646990
+      BLPlayer-v3-sheet_29: 1229528541
+      BLPlayer-v3-sheet_143: 1332543836
+      BLPlayer-v3-sheet_20: -1080228954
+      BLPlayer-v3-sheet_142: 1725788771
+      BLPlayer-v3-sheet_147: -1440744849
+      BLPlayer-v3-sheet_57: 914221070
+      BLPlayer-v3-sheet_106: -512995222
+      BLPlayer-v3-sheet_159: 1589201823
+      BLPlayer-v3-sheet_226: -52537390
+      BLPlayer-v3-sheet_140: -475044878
+      BLPlayer-v3-sheet_84: 1039275698
+      BLPlayer-v3-sheet_114: 1494511865
+      BLPlayer-v3-sheet_88: 918301515
+      BLPlayer-v3-sheet_222: -1865432255
+      BLPlayer-v3-sheet_109: -116207792
+      BLPlayer-v3-sheet_62: -248435492
+      BLPlayer-v3-sheet_170: -1354121843
+      BLPlayer-v3-sheet_231: 798390064
+      BLPlayer-v3-sheet_141: 503470982
+      BLPlayer-v3-sheet_103: 216586497
+      BLPlayer-v3-sheet_148: 494899700
+      BLPlayer-v3-sheet_107: -2105461777
+      BLPlayer-v3-sheet_211: 2045256203
+      BLPlayer-v3-sheet_186: 1919713689
+      BLPlayer-v3-sheet_150: 1448323340
+      BLPlayer-v3-sheet_30: 1135456822
+      BLPlayer-v3-sheet_99: -988533664
+      BLPlayer-v3-sheet_139: -877559601
+      BLPlayer-v3-sheet_118: -851876672
+      BLPlayer-v3-sheet_51: -342943454
+      BLPlayer-v3-sheet_18: -1203725723
+      BLPlayer-v3-sheet_113: 942967166
+      BLPlayer-v3-sheet_183: -1866122143
+      BLPlayer-v3-sheet_200: -484791343
+      BLPlayer-v3-sheet_149: 925849597
+      BLPlayer-v3-sheet_225: -1806304567
+      BLPlayer-v3-sheet_235: 541158526
+      BLPlayer-v3-sheet_171: 395074892
+      BLPlayer-v3-sheet_190: -1211111299
+      BLPlayer-v3-sheet_64: -1614437307
+      BLPlayer-v3-sheet_208: 662642393
+      BLPlayer-v3-sheet_128: 365907789
+      BLPlayer-v3-sheet_40: -916069254
+      BLPlayer-v3-sheet_97: -101730401
+      BLPlayer-v3-sheet_156: -1311044428
+      BLPlayer-v3-sheet_165: 1856356761
+      BLPlayer-v3-sheet_90: -1265336049
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

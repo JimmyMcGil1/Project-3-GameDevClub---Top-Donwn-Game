@@ -20,7 +20,7 @@ public class Naruto_beheviour : MonoBehaviour
         ver = Input.GetAxisRaw("Vertical");
         anim.SetBool("isMoving", hor != 0 || ver != 0);
         if (hor != 0 || ver != 0) Moving();
-        if (Input.GetKeyDown(KeyCode.Mouse0)) anim.SetTrigger("phanthan");
+     //   if (Input.GetKeyDown(KeyCode.Mouse0)) anim.SetTrigger("phanthan");
     }
 
     void Moving()
