@@ -11,7 +11,7 @@ public class SanDauSeeSaw : MonoBehaviour
     seesaw_sensor right;
 
     float balancer = 0;
-    
+    bool isPushCharacter = false;
     private void Awake()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
@@ -26,16 +26,27 @@ public class SanDauSeeSaw : MonoBehaviour
     void Update()
     {
        
-            if (Input.GetKey(KeyCode.E) && balancer > -1) LechGocDuoiTrai();
-            if (Input.GetKey(KeyCode.R) && balancer < 1) LechGocDuoiPhai();
-            if (left.totalWeight < right.totalWeight && balancer < 1 ) LechGocDuoiPhai();
-            else if (left.totalWeight > right.totalWeight && balancer > -1 ) LechGocDuoiTrai();
+           
+            if (left.totalWeight < right.totalWeight )
+            {
+                if (balancer < 1) LechGocDuoiPhai();
+            }
+
+            else if (left.totalWeight > right.totalWeight) 
+            { 
+                if (balancer > -1) LechGocDuoiTrai();
+            }
+            else
+            {
+              if (balancer < 0) LechGocDuoiPhai();
+              else if (balancer > 0) LechGocDuoiTrai();
+             }
        
+            
       
         if (balancer < 0)
         {
-            StartCoroutine(DragCharacter(Vector3.left));
-
+                StartCoroutine(DragCharacter(Vector3.left));
         }
         else if (balancer > 0)
         {
@@ -44,12 +55,7 @@ public class SanDauSeeSaw : MonoBehaviour
     }
     void LechGocDuoiTrai()
     {
-        /*
-        Quaternion currRotation = transform.rotation;
-        Quaternion newRotation = Quaternion.Euler(currRotation.eulerAngles += new Vector3(rotationSpeed * Time.deltaTime, rotationSpeed * Time.deltaTime, 0f));
-        transform.rotation = newRotation;
-        transform.Rotate
-        */
+        
         Quaternion customRotation = Quaternion.AngleAxis(rotationSpeed * Time.deltaTime, customAxis);
         balancer += -rotationSpeed * Time.deltaTime;
         transform.Rotate(customRotation.eulerAngles);
@@ -58,17 +64,11 @@ public class SanDauSeeSaw : MonoBehaviour
     }
     void LechGocDuoiPhai()
     {
-        /*
-        Quaternion currRotation = transform.rotation;
-        Quaternion newRotation = Quaternion.Euler(currRotation.eulerAngles += new Vector3(rotationSpeed * Time.deltaTime, rotationSpeed * Time.deltaTime, 0f));
-        transform.rotation = newRotation;
-        transform.Rotate
-        */
         Quaternion customRotation = Quaternion.AngleAxis(-rotationSpeed * Time.deltaTime, customAxis);
         balancer += +rotationSpeed * Time.deltaTime;
-
         transform.Rotate(customRotation.eulerAngles);
-     //   StartCoroutine(DragCharacter(Vector3.right));
+        
+        //   StartCoroutine(DragCharacter(Vector3.right));
 
     }
     IEnumerator DragCharacter(Vector3 dir)
@@ -77,15 +77,13 @@ public class SanDauSeeSaw : MonoBehaviour
         {
             foreach (var player in players)
             {
-                player.GetComponent<Rigidbody2D>().AddForce(0.005f * dir, ForceMode2D.Impulse);
+                player.GetComponent<Rigidbody2D>().AddForce(0.005f * dir * player.GetComponent<Character_BaseSet>().currWeight / 100, ForceMode2D.Impulse);
             }
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(1f);
         }
-        /*
         foreach (var player in players)
         {
-            player.GetComponent<Rigidbody2D>().AddForce(1 * -dir, ForceMode2D.Impulse);
+            player.GetComponent<Rigidbody2D>().AddForce(-0.005f * dir * player.GetComponent<Character_BaseSet>().currWeight / 100, ForceMode2D.Impulse);
         }
-        */
     }
 }

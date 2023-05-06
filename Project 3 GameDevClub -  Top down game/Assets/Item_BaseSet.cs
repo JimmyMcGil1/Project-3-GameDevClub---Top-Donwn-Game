@@ -7,6 +7,6 @@ public class Item_BaseSet : MonoBehaviour
     [SerializeField] public int weight { get;  set; }
     private void Awake()
     {
-        weight = 20;
+        weight = 0;
     }
 }

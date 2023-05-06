@@ -9,6 +9,7 @@ public class Naruto_beheviour : MonoBehaviour
     float hor;
     float ver;
     [SerializeField] float speed;
+    [SerializeField] float buffSpeedForCharacter;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -29,7 +30,7 @@ public class Naruto_beheviour : MonoBehaviour
         anim.SetFloat("dirY", ver);
         Vector2 newPos = new Vector2(hor, ver);
         if (newPos.magnitude > 1) newPos.Normalize();
-        newPos *= speed * Time.deltaTime;
+        newPos *= speed * Time.deltaTime * buffSpeedForCharacter ;
         rigit.position += newPos;
     }
 }

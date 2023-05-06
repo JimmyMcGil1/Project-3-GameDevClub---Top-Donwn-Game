@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1505472099465286429}
   - component: {fileID: 1505472099465286425}
   - component: {fileID: 1505472099465286426}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Character 3 '
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1505472097773778220}
+  - {fileID: 8024931696225342215}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 745110949, guid: ed9c9ca94aa99d54caa36fed4d71fdc3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -89,7 +89,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!95 &1505472099465286431
 Animator:
   serializedVersion: 5
@@ -144,7 +144,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.044509888, y: 0.7041574}
+  m_Offset: {x: -0.044509888, y: 0.34822214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.32}
@@ -155,7 +155,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6736288, y: 1.1899449}
+  m_Size: {x: 0.6736288, y: 0.4780743}
   m_EdgeRadius: 0
 --- !u!114 &1505472099465286425
 MonoBehaviour:
@@ -183,7 +183,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68d6994c539cdd7438b742e0401f2d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &8915660761522514254
+  attackTimmer: 0.4
+  attackRadius: 0.6
+  attackPos: 1.1
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!1001 &791252837
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -282,6 +288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character_UI
       objectReference: {fileID: 0}
+    - target: {fileID: 8024931696612826221, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8024931697404346440, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -292,8 +302,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
---- !u!224 &1505472097773778220 stripped
+--- !u!224 &8024931696225342215 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8024931696612826210, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
-  m_PrefabInstance: {fileID: 8915660761522514254}
+  m_PrefabInstance: {fileID: 791252837}
   m_PrefabAsset: {fileID: 0}

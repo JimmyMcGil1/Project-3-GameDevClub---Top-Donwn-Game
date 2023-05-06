@@ -13,7 +13,6 @@ public class Character_BaseSet : MonoBehaviour
     GameObject character_ui;
     Slider weight_slider;
     Text weight_text;
-    [SerializeField] LayerMask groundLayer;
 
     private void Awake()
     {
