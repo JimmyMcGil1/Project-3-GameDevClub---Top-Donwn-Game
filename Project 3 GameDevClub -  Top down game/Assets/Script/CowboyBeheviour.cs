@@ -20,8 +20,11 @@ public class CowboyBeheviour : MonoBehaviour
     }
     private void Update()
     {
-        hor = Input.GetAxisRaw("Horizontal");
-        ver = Input.GetAxisRaw("Vertical");
+        hor = 0; ver = 0;
+        if (Input.GetKey(KeyCode.D)) hor = 1;
+        else if (Input.GetKey(KeyCode.A)) hor = -1;
+        if (Input.GetKey(KeyCode.W)) ver = 1;
+        else if (Input.GetKey(KeyCode.S)) ver = -1;
         anim.SetBool("isMoving", hor != 0 || ver != 0);
         if (hor != 0 || ver != 0) Moving();
     }

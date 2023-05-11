@@ -31,8 +31,17 @@ public class Char3_behiviour : MonoBehaviour
     }
     private void Update()
     {
+        //move control 1 
+        /*
         hor = Input.GetAxisRaw("Horizontal");
         ver = Input.GetAxisRaw("Vertical");
+        */
+        //move control 2
+        hor = 0; ver = 0;
+        if (Input.GetKey(KeyCode.RightArrow)) hor = 1;
+        else if (Input.GetKey(KeyCode.LeftArrow)) hor = -1;
+        if (Input.GetKey(KeyCode.UpArrow)) ver = 1;
+        else if (Input.GetKey(KeyCode.DownArrow)) ver = -1;
         anim.SetBool("isMoving", hor != 0 || ver != 0);
         if (hor != 0 || ver != 0) Moving();
         if (Input.GetKeyDown(KeyCode.Mouse0))

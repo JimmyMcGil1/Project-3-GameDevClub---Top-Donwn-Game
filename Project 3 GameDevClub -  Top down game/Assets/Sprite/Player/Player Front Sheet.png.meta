@@ -153,7 +153,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Down 1
+      name: Player Front Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -161,20 +161,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a890df32cf88a84f9c41812b0901f88
-      internalID: -374403655
+      spriteID: 58ec62b857b48a645aa86d8c3a9aabf6
+      internalID: 1351053102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Down 2
+      name: Player Front Sheet_1
       rect:
         serializedVersion: 2
         x: 48
@@ -182,20 +182,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c97104d1675c2814ab10f6c5f233d4c1
-      internalID: -1104160665
+      spriteID: fd1cf1790483ea342b80701e12ae3d69
+      internalID: 1249751584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Down 3
+      name: Player Front Sheet_2
       rect:
         serializedVersion: 2
         x: 96
@@ -203,20 +203,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088cfdd526607b745bde2700cac38fe5
-      internalID: 1223503023
+      spriteID: f4c835a98d750ef42932b0527908124f
+      internalID: 53706558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Down 4
+      name: Player Front Sheet_3
       rect:
         serializedVersion: 2
         x: 144
@@ -224,20 +224,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0af83c33c36e484a9a9ab4aea6d9548
-      internalID: -535494218
+      spriteID: 462aa52953534d7409f524bf0d62c833
+      internalID: 1065068489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Down 5
+      name: Player Front Sheet_4
       rect:
         serializedVersion: 2
         x: 192
@@ -245,20 +245,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43d018150e927e34aa072231455de158
-      internalID: 193566738
+      spriteID: 2802b8f0a2cb80f43b664a42383321eb
+      internalID: -364023452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Down 6
+      name: Player Front Sheet_5
       rect:
         serializedVersion: 2
         x: 240
@@ -266,20 +266,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef560e49f1503ba4694f7cac1b51cf1f
-      internalID: -12982490
+      spriteID: 9b105ef640799554a86fd4919b41dee3
+      internalID: -834424574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 1
+      name: Player Front Sheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -287,20 +287,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1843d06981562c24b87bab92681299cb
-      internalID: -692173868
+      spriteID: 304123c1313a6804d9b136597e79167c
+      internalID: -593051646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 2
+      name: Player Front Sheet_7
       rect:
         serializedVersion: 2
         x: 48
@@ -308,20 +308,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecb9a4d8a7d56f64cb701f6a2cc71c34
-      internalID: -1832326302
+      spriteID: 2063667271972ed4ca7d8031524a3608
+      internalID: 1958570340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 3
+      name: Player Front Sheet_8
       rect:
         serializedVersion: 2
         x: 96
@@ -329,20 +329,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 552db5f411b25954784b83313aa12547
-      internalID: 1192939448
+      spriteID: 533457124b68cb841bac79f2c952d44d
+      internalID: -1254594900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 4
+      name: Player Front Sheet_9
       rect:
         serializedVersion: 2
         x: 144
@@ -350,20 +350,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec368ace5b8a322459b8000452e47989
-      internalID: -188435345
+      spriteID: 534bb9ca84805ae4fa772225431303ad
+      internalID: 1731878070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 5
+      name: Player Front Sheet_10
       rect:
         serializedVersion: 2
         x: 192
@@ -371,20 +371,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5930b67498af73e47ad861ef96ad0089
-      internalID: -342929286
+      spriteID: 758cfd36496d3bf459c9c95dfc696340
+      internalID: 1080379617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 6
+      name: Player Front Sheet_11
       rect:
         serializedVersion: 2
         x: 240
@@ -392,20 +392,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e400313a6bb5d574688482f670359b80
-      internalID: 1656159753
+      spriteID: ac5523dccf4944f4ca4d66dc8dcfad93
+      internalID: 1310546778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 7
+      name: Player Front Sheet_12
       rect:
         serializedVersion: 2
         x: 288
@@ -413,20 +413,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fbf6a1e7622476498ef0523c92f09d0
-      internalID: 1190426221
+      spriteID: 9e700043babd9f44ab1e3014e1275e0f
+      internalID: 361731506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Moving Down 8
+      name: Player Front Sheet_13
       rect:
         serializedVersion: 2
         x: 336
@@ -434,20 +434,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c621e3526873204193d3559f62a67d7
-      internalID: -843843875
+      spriteID: 1a7f7f982fe15d240b52f38cd884b84b
+      internalID: 2109958282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 1
+      name: Player Front Sheet_14
       rect:
         serializedVersion: 2
         x: 0
@@ -455,20 +455,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aac520a78856464ebc3bbc25bfd9f52
-      internalID: -2141263124
+      spriteID: bc02584a6080a8147a5da6a69f56e99e
+      internalID: 138664467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 2
+      name: Player Front Sheet_15
       rect:
         serializedVersion: 2
         x: 48
@@ -476,20 +476,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ec0183b44e33b242999d302211f4187
-      internalID: 1859390981
+      spriteID: 720ef21f0ca553944b0e6a4135bae9ea
+      internalID: 2130500636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 3
+      name: Player Front Sheet_16
       rect:
         serializedVersion: 2
         x: 96
@@ -497,20 +497,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64aebe906a34e57409da2b7345233b00
-      internalID: 283058156
+      spriteID: 012f643f2b20ff540afffd8b92954787
+      internalID: -2130761029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 4
+      name: Player Front Sheet_17
       rect:
         serializedVersion: 2
         x: 144
@@ -518,20 +518,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9f98bccfd564f0469b319728784cbde
-      internalID: 709421941
+      spriteID: 238c58c34ffc3d846b336b3fd2f0bcb1
+      internalID: -189096003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 5
+      name: Player Front Sheet_18
       rect:
         serializedVersion: 2
         x: 192
@@ -539,20 +539,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f022335686a660249a50b97eacbcb6c1
-      internalID: -1504528764
+      spriteID: 329fae5d11a1422488b0613585dcf4a2
+      internalID: 2104335750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shoot Down 6
+      name: Player Front Sheet_19
       rect:
         serializedVersion: 2
         x: 240
@@ -560,20 +560,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b949ce2e7080a6a4383a4a7666744e37
-      internalID: 112351065
+      spriteID: 2c40dbcb5dec2f44994c737c0c0f2c26
+      internalID: -1811802158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hitted Down 1
+      name: Player Front Sheet_20
       rect:
         serializedVersion: 2
         x: 0
@@ -581,20 +581,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 246c8f3c4411efa43a1659e8e46f13bd
-      internalID: 2025322799
+      spriteID: 15812039b8dd8b749a9fde41d33d06d9
+      internalID: -1675443722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 1
+      name: Player Front Sheet_21
       rect:
         serializedVersion: 2
         x: 0
@@ -602,20 +602,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b74c223b28984e94b9309f3f68f1659f
-      internalID: 1148606108
+      spriteID: bd79004e7c056ac489be8f6e74a49190
+      internalID: 877949173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 2
+      name: Player Front Sheet_22
       rect:
         serializedVersion: 2
         x: 48
@@ -623,20 +623,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2a68ae93d8cdcc4baa1236e07ac7cf5
-      internalID: 1349113173
+      spriteID: 393c54d34cdcfa44b84a0312780d8d91
+      internalID: 1353748573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 3
+      name: Player Front Sheet_23
       rect:
         serializedVersion: 2
         x: 96
@@ -644,20 +644,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8053c866688f48428fc711291f4bfe2
-      internalID: 422470420
+      spriteID: dbf7a2973fbf74544807bafe29be33c7
+      internalID: -532787835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 4
+      name: Player Front Sheet_24
       rect:
         serializedVersion: 2
         x: 144
@@ -665,20 +665,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb8e7dd4d349fb4ba0dc51ae002eecc
-      internalID: -419096920
+      spriteID: 9c352c8f68860154fb7da6c1edfb8475
+      internalID: 436355941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 5
+      name: Player Front Sheet_25
       rect:
         serializedVersion: 2
         x: 192
@@ -686,20 +686,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47b03ea2b4845ed4ea1a28315c8c11c1
-      internalID: -1274157780
+      spriteID: d725a3acb2e18ca4db999c7d59464790
+      internalID: -500165777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 6
+      name: Player Front Sheet_26
       rect:
         serializedVersion: 2
         x: 240
@@ -707,20 +707,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b622812799837e42974c49d21346443
-      internalID: 1516733802
+      spriteID: a94f7106884f3804bbda9dc3aedd6954
+      internalID: -645132759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 7
+      name: Player Front Sheet_27
       rect:
         serializedVersion: 2
         x: 288
@@ -728,20 +728,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b4f8bbea43283a468516b654201115c
-      internalID: -560007336
+      spriteID: cbb54b0f8f884294391d32f5b0d468f9
+      internalID: 1230402552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 8
+      name: Player Front Sheet_28
       rect:
         serializedVersion: 2
         x: 336
@@ -749,20 +749,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f8d08bc76265e4aaed01779813b93f
-      internalID: 65635584
+      spriteID: e4a3fd0da5b3fe843848b9024227dde2
+      internalID: -1780151923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 9
+      name: Player Front Sheet_29
       rect:
         serializedVersion: 2
         x: 384
@@ -770,20 +770,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d441c1987e44f42808aad1fe7ae6e0
-      internalID: -1916118882
+      spriteID: 41339833d5f72414789cded3bcc303cc
+      internalID: 89258833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 10
+      name: Player Front Sheet_30
       rect:
         serializedVersion: 2
         x: 432
@@ -791,20 +791,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8de147d374c4b8247b6d010ce21f731c
-      internalID: 2068806554
+      spriteID: 22a2503f56810b94281ac0d90e996984
+      internalID: -3208579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 11
+      name: Player Front Sheet_31
       rect:
         serializedVersion: 2
         x: 480
@@ -812,20 +812,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f508de92be5527c4b9f44dab6000b288
-      internalID: -2112699807
+      spriteID: a4d93840972a74744929a880af5a4bfe
+      internalID: 350829589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 12
+      name: Player Front Sheet_32
       rect:
         serializedVersion: 2
         x: 528
@@ -833,20 +833,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84df06216af5c6b44b9d636963fe028c
-      internalID: -1227512020
+      spriteID: 95b1ed4a0baf21942b815af08f3241a2
+      internalID: -784233377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 13
+      name: Player Front Sheet_33
       rect:
         serializedVersion: 2
         x: 576
@@ -854,20 +854,20 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40232dcfa3a55644286ef84485b39269
-      internalID: -479725828
+      spriteID: 38192be48b9808240818450f7c42baa6
+      internalID: 892171184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death Down 14
+      name: Player Front Sheet_34
       rect:
         serializedVersion: 2
         x: 624
@@ -875,14 +875,14 @@ TextureImporter:
         width: 48
         height: 44
       alignment: 9
-      pivot: {x: 0.5, y: 0.08}
+      pivot: {x: 0.48, y: 0.17}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3811c789769e9ee48b223bd5075caaf2
-      internalID: 2066165736
+      spriteID: 5e9d3837751c94443a8263ee970f4d05
+      internalID: 914220864
       vertices: []
       indices: 
       edges: []
@@ -898,49 +898,41 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Death Down 9: -1916118882
-      Idle Down 2: -1104160665
+      Player Front Sheet_3: 1065068489
+      Player Front Sheet_18: 2104335750
       Player Front Sheet_22: 1353748573
-      Hitted Down 1: 2025322799
+      Player Front Sheet_5: -834424574
       Player Front Sheet_21: 877949173
-      Moving Down 2: -1832326302
-      Shoot Down 2: 1859390981
-      Moving Down 6: 1656159753
-      Player Front Sheet_23: -532787835
-      Death Down 11: -2112699807
-      Shoot Down 6: 112351065
-      Shoot Down 4: 709421941
-      Moving Down 3: 1192939448
-      Shoot Down 5: -1504528764
-      Death Down 13: -479725828
-      Player Front Sheet_26: -645132759
-      Idle Down 3: 1223503023
-      Idle Down 1: -374403655
-      Shoot Down 3: 283058156
-      Idle Down 4: -535494218
-      Death Down 1: 1148606108
-      Death Down 12: -1227512020
-      Idle Down 6: -12982490
-      Death Down 8: 65635584
-      Death Down 7: -560007336
-      Death Down 14: 2066165736
+      Player Front Sheet_11: 1310546778
+      Player Front Sheet_34: 914220864
+      Player Front Sheet_2: 53706558
+      Player Front Sheet_12: 361731506
+      Player Front Sheet_13: 2109958282
+      Player Front Sheet_17: -189096003
+      Player Front Sheet_16: -2130761029
       Player Front Sheet_27: 1230402552
-      Death Down 3: 422470420
-      Moving Down 7: 1190426221
-      Death Down 5: -1274157780
-      Death Down 10: 2068806554
-      Shoot Down 1: -2141263124
-      Death Down 2: 1349113173
-      Moving Down 8: -843843875
+      Player Front Sheet_7: 1958570340
+      Player Front Sheet_9: 1731878070
+      Player Front Sheet_6: -593051646
+      Player Front Sheet_19: -1811802158
+      Player Front Sheet_23: -532787835
+      Player Front Sheet_1: 1249751584
+      Player Front Sheet_26: -645132759
+      Player Front Sheet_0: 1351053102
+      Player Front Sheet_15: 2130500636
+      Player Front Sheet_30: -3208579
+      Player Front Sheet_4: -364023452
+      Player Front Sheet_29: 89258833
+      Player Front Sheet_10: 1080379617
       Player Front Sheet_24: 436355941
-      Moving Down 4: -188435345
-      Moving Down 1: -692173868
+      Player Front Sheet_20: -1675443722
       Player Front Sheet_28: -1780151923
+      Player Front Sheet_33: 892171184
+      Player Front Sheet_8: -1254594900
+      Player Front Sheet_31: 350829589
       Player Front Sheet_25: -500165777
-      Death Down 4: -419096920
-      Death Down 6: 1516733802
-      Moving Down 5: -342929286
-      Idle Down 5: 193566738
+      Player Front Sheet_32: -784233377
+      Player Front Sheet_14: 138664467
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
