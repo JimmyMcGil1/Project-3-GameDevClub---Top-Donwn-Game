@@ -18,6 +18,8 @@ public class UIInSceneSript : MonoBehaviour
         txtCharacterWin.gameObject.SetActive(true);
         string _playerID = character.GetComponent<Character_BaseSet>().playerID == 1 ? "2" : "1";
         txtCharacterWin.text = $"Player {_playerID} win";
+        if (_playerID == "2") txtCharacterWin.color = Color.yellow;
+        else txtCharacterWin.color = Color.green;
         StartCoroutine(GameManager.instance.TextAppear(txtCharacterWin, 80, 120));
     }
 }

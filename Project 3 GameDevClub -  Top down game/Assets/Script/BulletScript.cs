@@ -36,9 +36,9 @@ public class BulletScript : MonoBehaviour
    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("CharacterCollider"))
         {
-            collision.gameObject.GetComponent<Character_BaseSet>().TakeDame(-10, 1, dir);
+            collision.transform.parent.GetComponent<Character_BaseSet>().TakeDame(-10, 0.7f, dir);
             Destroy(gameObject);
         }
        

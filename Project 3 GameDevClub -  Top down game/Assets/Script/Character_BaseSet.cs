@@ -38,7 +38,7 @@ public class Character_BaseSet : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E)) ChangeWeight(-10);
+       // if (Input.GetKeyDown(KeyCode.E)) ChangeWeight(-10);
         
     }
     void ChangeWeight(int _weight)
@@ -58,6 +58,7 @@ public class Character_BaseSet : MonoBehaviour
     public void TakeDame(int _weight, float forcePush, Vector2 dir)
     {
         ChangeWeight(_weight);
+        gameObject.GetComponent<Animator>().SetTrigger("hit");
         StartCoroutine(Repelling(forcePush, dir, 0.25f));
     }
     IEnumerator Repelling(float forcePush, Vector2 dir, float dur)

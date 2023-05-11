@@ -15,7 +15,7 @@ public class Cowboy_attack : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             anim.SetTrigger("attack1");
         }

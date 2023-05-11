@@ -73,9 +73,9 @@ public class Char3_behiviour : MonoBehaviour
             //Layer is PlayerCollider
             if (hit.collider.gameObject.layer == 8)
             {
-                Debug.Log("Hit enemy");
-                StartCoroutine(AttackPush(hit.collider.gameObject.transform.parent.gameObject));
-
+             //   StartCoroutine(AttackPush(hit.collider.gameObject.transform.parent.gameObject));
+                Vector2 dir = new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY"));
+                hit.collider.transform.parent.GetComponent<Character_BaseSet>().TakeDame(-10, 1.3f, dir);
             }
         }
            
