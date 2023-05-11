@@ -18,6 +18,12 @@ public class Char4_behavior : MonoBehaviour
     [SerializeField] float attackPos;
     [SerializeField] LayerMask playerLayer;
 
+    [Header("Skill 2")]
+    [SerializeField] float skill2Duration;
+    [SerializeField] float skill2Weight;
+    [SerializeField] float skill2AnimationDuration;
+    float skill2Counter;
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -48,6 +54,19 @@ public class Char4_behavior : MonoBehaviour
             }
         }
         attackCounter += Time.deltaTime;
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            anim.SetTrigger("skill2");
+            skill2Counter = skill2Duration;
+        }
+        if (skill2Counter > 0)
+        {
+            skill2Counter -= Time.deltaTime;
+            if (skill2Counter <= 0)
+            {
+                rigid.mass -= skill2Weight;
+            }
+        }
     }
 
     void Moving()
@@ -82,6 +101,12 @@ public class Char4_behavior : MonoBehaviour
         Gizmos.DrawWireSphere(_attackPos, attackRadius);
     }
 
+    private void Skill2()
+    {
+        StartCoroutine(Skill2Animation(skill2AnimationDuration));
+        rigid.mass += skill2Weight;
+    }
+
     IEnumerator AttackPush(GameObject other)
     {
         for (int i = 0; i < 1; i++)
@@ -90,6 +115,14 @@ public class Char4_behavior : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         other.GetComponent<Rigidbody2D>().AddForce(new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")) * -1.3f, ForceMode2D.Impulse);
+    }
+
+    IEnumerator Skill2Animation(float duration)
+    {
+        anim.SetTrigger("skill2");
+        yield return new WaitForSeconds(duration);
+        anim.ResetTrigger("skill2");
+        skill2Counter = skill2Duration;
     }
 }
 
