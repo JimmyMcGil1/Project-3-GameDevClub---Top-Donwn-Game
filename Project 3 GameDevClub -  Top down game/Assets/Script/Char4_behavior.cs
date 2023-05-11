@@ -58,13 +58,15 @@ public class Char4_behavior : MonoBehaviour
         {
             anim.SetTrigger("skill2");
             skill2Counter = skill2Duration;
+            baseSet.ChangeWeight(Mathf.RoundToInt(skill2Weight));
         }
+
         if (skill2Counter > 0)
         {
             skill2Counter -= Time.deltaTime;
             if (skill2Counter <= 0)
             {
-                rigid.mass -= skill2Weight;
+                baseSet.ChangeWeight(-Mathf.RoundToInt(skill2Weight));
             }
         }
     }
@@ -104,7 +106,7 @@ public class Char4_behavior : MonoBehaviour
     private void Skill2()
     {
         StartCoroutine(Skill2Animation(skill2AnimationDuration));
-        rigid.mass += skill2Weight;
+        baseSet.ChangeWeight(Mathf.RoundToInt(skill2Weight));
     }
 
     IEnumerator AttackPush(GameObject other)
@@ -122,6 +124,7 @@ public class Char4_behavior : MonoBehaviour
         anim.SetTrigger("skill2");
         yield return new WaitForSeconds(duration);
         anim.ResetTrigger("skill2");
+        baseSet.ChangeWeight(-Mathf.RoundToInt(skill2Weight));
         skill2Counter = skill2Duration;
     }
 }
