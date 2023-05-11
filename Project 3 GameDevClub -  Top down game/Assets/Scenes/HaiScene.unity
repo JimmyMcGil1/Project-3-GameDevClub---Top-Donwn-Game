@@ -3124,8 +3124,8 @@ GameObject:
   - component: {fileID: 1171103758}
   - component: {fileID: 1171103757}
   - component: {fileID: 1171103756}
-  - component: {fileID: 1171103755}
   - component: {fileID: 1171103754}
+  - component: {fileID: 1171103755}
   m_Layer: 0
   m_Name: char4
   m_TagString: Player
@@ -3159,6 +3159,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8039ec46f8745efb6bcdaed0eff40e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackTimmer: 0
+  attackRadius: 0
+  attackPos: 0
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!61 &1171103756
 BoxCollider2D:
   m_ObjectHideFlags: 0
