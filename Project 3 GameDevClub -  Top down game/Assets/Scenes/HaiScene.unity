@@ -3335,6 +3335,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e86e22bbbe04436fa1970f9519fa475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicSounds:
+  - name: Theme
+    clip: {fileID: 0}
+  sfxSounds:
+  - name: Start
+    clip: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 0}
+  musicSource: {fileID: 0}
+  sfxSource: {fileID: 0}
 --- !u!4 &1548625286
 Transform:
   m_ObjectHideFlags: 0

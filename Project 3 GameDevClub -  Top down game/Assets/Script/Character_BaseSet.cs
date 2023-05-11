@@ -41,7 +41,7 @@ public class Character_BaseSet : MonoBehaviour
        // if (Input.GetKeyDown(KeyCode.E)) ChangeWeight(-10);
         
     }
-    void ChangeWeight(int _weight)
+    public void ChangeWeight(int _weight)
     {
         if (_weight < 0)
         {
