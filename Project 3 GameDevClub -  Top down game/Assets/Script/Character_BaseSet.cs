@@ -13,6 +13,7 @@ public class Character_BaseSet : MonoBehaviour
     GameObject character_ui;
     Slider weight_slider;
     Text weight_text;
+    public int playerID;
 
     private void Awake()
     {

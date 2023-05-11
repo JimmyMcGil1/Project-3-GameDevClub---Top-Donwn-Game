@@ -9,7 +9,7 @@ public class BuffWeightForItem : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Item"))
         {
-            collision.gameObject.GetComponent<Item_BaseSet>().weight += weightBuff;
+            collision.gameObject.GetComponent<Item_BaseSet>().ChangeWeight(20);
         }
     }
 }

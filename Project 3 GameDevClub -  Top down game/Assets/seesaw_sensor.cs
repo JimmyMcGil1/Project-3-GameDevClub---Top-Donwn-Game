@@ -12,6 +12,7 @@ public class seesaw_sensor : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.CompareTag("Player"))
         {
             totalWeight += collision.gameObject.GetComponent<Character_BaseSet>().currWeight;
@@ -21,7 +22,6 @@ public class seesaw_sensor : MonoBehaviour
             totalWeight += collision.gameObject.GetComponent<Item_BaseSet>().weight;
 
         }
-
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

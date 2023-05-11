@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 901549331153747163}
   - component: {fileID: 901549331153747162}
   - component: {fileID: 901549331153747161}
+  - component: {fileID: 51002530}
   m_Layer: 0
   m_Name: 'FlashZone '
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 901549331153747165}
   m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
   m_LocalPosition: {x: -0.56, y: 0.05, z: 0}
-  m_LocalScale: {x: 1.5, y: 2.3, z: 1}
+  m_LocalScale: {x: 1.6144323, y: 1.4127148, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,9 +75,9 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.15294117, g: 0.8862745, b: 0.8531108, a: 0.68235296}
+  m_SortingOrder: 1
+  m_Sprite: {fileID: -1112044370, guid: ac44f6d9da6271846923f94091e77aeb, type: 3}
+  m_Color: {r: 0.9570666, g: 0.9811321, b: 0.98010254, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -124,3 +125,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27608aad7289c9d409041454e66e6df0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &51002530
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901549331153747165}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d656de3fd8ae09343bd7971651e9958c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
