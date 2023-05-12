@@ -18,7 +18,15 @@ public class LoadCharacterScript : MonoBehaviour
         fixInit2.z = 0;
         initPlayer1.position = fixInit1;
         initPlayer2.position = fixInit2;
-        Instantiate(CharacterPool[player1SlChar], initPlayer1.position, Quaternion.Euler(0,0,0));
-        Instantiate(CharacterPool[player2SlChar], initPlayer2.position, Quaternion.Euler(0, 0, 0));
+
+        GameObject char1 = Instantiate(CharacterPool[player1SlChar], initPlayer1.position, Quaternion.Euler(0,0,0));
+        GameObject char2 = Instantiate(CharacterPool[player2SlChar], initPlayer2.position, Quaternion.Euler(0,0,0));
+        char1.GetComponent<Character_BaseSet>().controlType = 1;
+        char1.GetComponent<Character_BaseSet>().attackType = 1;
+        char2.GetComponent<Character_BaseSet>().controlType = 2;
+        char2.GetComponent<Character_BaseSet>().attackType = 2;
+
+
     }
+    
 }

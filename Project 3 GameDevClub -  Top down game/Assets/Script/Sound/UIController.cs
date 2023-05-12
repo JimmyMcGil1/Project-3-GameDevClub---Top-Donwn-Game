@@ -5,6 +5,14 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
+    GameObject soundPanel;
+    bool panelActive;
+    private void Awake()
+    {
+        soundPanel = gameObject.transform.Find("Sound Panel").gameObject;
+        soundPanel.SetActive(false);
+        panelActive = false;
+    }
     public Slider _musicSlider, _sfxSlider;
     
     public void ToggleMusic()
@@ -25,5 +33,14 @@ public class UIController : MonoBehaviour
     public void SFXVolume()
     {
         AudioManager.Instance.SFXVolume(_sfxSlider.value);
+    }
+    public void ShowPanel()
+    {
+        if (!panelActive)
+        {
+            soundPanel.SetActive(true);
+        }
+        else soundPanel.SetActive(false);
+        panelActive = !panelActive;
     }
 }

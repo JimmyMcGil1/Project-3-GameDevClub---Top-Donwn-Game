@@ -8,17 +8,23 @@ public class Cowboy_attack : MonoBehaviour
     Vector3 bulletInitPos;
     [SerializeField] GameObject bullet;
     Animator anim;
+    Character_BaseSet baseSet;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
+        baseSet = GetComponent<Character_BaseSet>();
+
+        Debug.Log(baseSet.attackType);
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && baseSet.attackType == 1)
         {
             anim.SetTrigger("attack1");
         }
+        if (Input.GetKeyDown(KeyCode.Mouse0) && baseSet.attackType == 2)
+            anim.SetTrigger("attack1");
     }
     public void FireBullet()
     {

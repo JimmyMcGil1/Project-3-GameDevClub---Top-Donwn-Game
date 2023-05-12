@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SelectCharacterScript : MonoBehaviour
@@ -18,12 +19,15 @@ public class SelectCharacterScript : MonoBehaviour
     [SerializeField] string character1_name;
     [SerializeField] string character2_name;
     [SerializeField] string character3_name;
+    GameObject loadChar;
     private void Awake()
     {
         cursor1 = transform.Find("Cursor1").gameObject;
         cursor2 = transform.Find("Cursor2").gameObject;
         txtPlayer1 = transform.Find("txtPlayer1").gameObject.GetComponent<Text>();
         txtPlayer2 = transform.Find("txtPlayer2").gameObject.GetComponent<Text>();
+        loadChar = GameObject.FindGameObjectWithTag("LoadCharacter").gameObject;
+        loadChar.SetActive(false);
     }
     private void Start()
     {
@@ -32,35 +36,41 @@ public class SelectCharacterScript : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) CursorMoveLeft(cursor1,ref checkMoveCur1, cur1Id);
-        if (Input.GetKeyDown(KeyCode.D)) CursorMoveRight(cursor1,ref checkMoveCur1,cur1Id);
+        if (Input.GetKeyDown(KeyCode.A)) CursorMoveLeft(ref checkMoveCur1, cur1Id);
+        if (Input.GetKeyDown(KeyCode.D)) CursorMoveRight(ref checkMoveCur1,cur1Id);
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow)) CursorMoveLeft(cursor2, ref checkMoveCur2,cur2Id);
-        if (Input.GetKeyDown(KeyCode.RightArrow)) CursorMoveRight(cursor2, ref checkMoveCur2,cur2Id);
-        //   if (Input.GetKeyDown(KeyCode.C)) GameManager.instance.ReceivePlayerSelect(cur1Id, checkMoveCur1);
-        //  if (Input.GetKeyDown(KeyCode.Return)) GameManager.instance.ReceivePlayerSelect(cur2Id, checkMoveCur2);
+        if (Input.GetKeyDown(KeyCode.LeftArrow)) CursorMoveLeft(ref checkMoveCur2,cur2Id);
+        if (Input.GetKeyDown(KeyCode.RightArrow)) CursorMoveRight(ref checkMoveCur2,cur2Id);
         if (Input.GetKeyDown(KeyCode.C)) NewReceiveCharacter(cur1Id, checkMoveCur1);
         if (Input.GetKeyDown(KeyCode.Return)) NewReceiveCharacter(cur2Id, checkMoveCur2);
     }
-    void CursorMoveLeft(GameObject cur, ref int checkMove, int _curID)
+    void CursorMoveLeft(ref int checkMove, int _curID = 1)
     {
         if (checkMove > 0)
         {
-            Vector2 newPos = cur.GetComponent<RectTransform>().position;
+            Vector2 newPos;
+            if (_curID == 1)  newPos = cursor1.GetComponent<RectTransform>().anchoredPosition;
+            else newPos = cursor2.GetComponent<RectTransform>().anchoredPosition;
+            Debug.Log(newPos.ToString());
             newPos.x -= 300;
-            cur.GetComponent<RectTransform>().position = newPos;
+            if (_curID == 1) cursor1.GetComponent<RectTransform>().anchoredPosition = newPos;
+            else cursor2.GetComponent<RectTransform>().anchoredPosition = newPos;
             checkMove -= 1;
         }
        if (_curID == 1) ChangeCharacterName(txtPlayer1, checkMove);
        else ChangeCharacterName(txtPlayer2, checkMove);
     } 
-    void CursorMoveRight(GameObject cur, ref int checkMove, int _curID)
+    void CursorMoveRight(ref int checkMove, int _curID = 1)
     {
         if (checkMove < 2)
         {
-            Vector2 newPos = cur.GetComponent<RectTransform>().position;
+            Vector2 newPos;
+            if (_curID == 1) newPos = cursor1.GetComponent<RectTransform>().anchoredPosition;
+            else newPos = cursor2.GetComponent<RectTransform>().anchoredPosition;
+            Debug.Log(newPos.ToString());
             newPos.x += 300;
-            cur.GetComponent<RectTransform>().position = newPos;
+            if (_curID == 1) cursor1.GetComponent<RectTransform>().anchoredPosition = newPos;
+            else cursor2.GetComponent<RectTransform>().anchoredPosition = newPos;
             checkMove += 1;
         }
         if (_curID == 1) ChangeCharacterName(txtPlayer1, checkMove);
@@ -90,5 +100,10 @@ public class SelectCharacterScript : MonoBehaviour
             PlayerPrefs.SetInt("player1SlChar", slChar);
         else if (playerID == 2)
             PlayerPrefs.SetInt("player2SlChar", slChar);
+    }
+    public void LoadBattleScene_SelectScene()
+    {
+        loadChar.SetActive(true);
+        GameManager.instance.LoadBattleScene();
     }
 }

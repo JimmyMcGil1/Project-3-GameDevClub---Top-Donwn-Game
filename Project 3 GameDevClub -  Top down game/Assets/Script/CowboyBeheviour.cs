@@ -10,6 +10,8 @@ public class CowboyBeheviour : MonoBehaviour
     [HideInInspector] public float hor;
     [HideInInspector] public float ver;
     Character_BaseSet baseSet;
+   
+   
     private void Awake()
     {
         if (instance != null && instance != this) Destroy(this);
@@ -20,24 +22,10 @@ public class CowboyBeheviour : MonoBehaviour
     }
     private void Update()
     {
-        hor = 0; ver = 0;
-        if (Input.GetKey(KeyCode.D)) hor = 1;
-        else if (Input.GetKey(KeyCode.A)) hor = -1;
-        if (Input.GetKey(KeyCode.W)) ver = 1;
-        else if (Input.GetKey(KeyCode.S)) ver = -1;
-        anim.SetBool("isMoving", hor != 0 || ver != 0);
-        if (hor != 0 || ver != 0) Moving();
+        
     }
 
-    void Moving()
-    {
-        anim.SetFloat("dirX", hor);
-        anim.SetFloat("dirY", ver);
-        Vector2 newPos = new Vector2(hor, ver);
-        if (newPos.magnitude > 1) newPos.Normalize();
-        newPos *= baseSet.speed * Time.deltaTime;
-        rigit.position += newPos;
-    }
+    
 
 
 
