@@ -251,7 +251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &30377759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -968,7 +968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2179917130154450986, guid: 5bb8e4403b148c44ba02ba4c5981da95, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2179917130154450998, guid: 5bb8e4403b148c44ba02ba4c5981da95, type: 3}
       propertyPath: m_Size.y
@@ -1886,11 +1886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8024931697404346440, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8024931697404346440, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8024931697404346441, guid: 8047815a6ef060f4b9034034a3e90688, type: 3}
       propertyPath: m_Color.b
@@ -5101,7 +5101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 901549331153747165, guid: 761cb126dab3db1449cc8f00943af1ae, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 761cb126dab3db1449cc8f00943af1ae, type: 3}
@@ -5544,7 +5544,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9137458989620974759, guid: d071df25b5d484647a9c9c183b275daf, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d071df25b5d484647a9c9c183b275daf, type: 3}
@@ -5564,7 +5564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2048153941
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5769,13 +5769,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: char4
       objectReference: {fileID: 0}
-    - target: {fileID: 5501160541659967127, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
-      propertyPath: m_AnchorMax.x
+    - target: {fileID: 2523779964457393848, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5501160541659967127, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5501160541659967127, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
