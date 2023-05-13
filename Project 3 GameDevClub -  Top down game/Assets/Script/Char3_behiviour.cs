@@ -14,6 +14,7 @@ public class Char3_behiviour : MonoBehaviour
     [SerializeField] float attackPos;
     [SerializeField] LayerMask playerLayer;
     Character_BaseSet baseSet;
+    [SerializeField] AudioClip attackClip;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -34,6 +35,7 @@ public class Char3_behiviour : MonoBehaviour
             {
                 anim.SetTrigger("attack");
                 attackCounter = 0;
+                GameManager.instance.playSource(attackClip);
             }
         }
         else if (Input.GetKeyDown(KeyCode.E) && baseSet.attackType == 1)
@@ -41,6 +43,7 @@ public class Char3_behiviour : MonoBehaviour
             if (attackCounter > attackTimmer)
             {
                 anim.SetTrigger("attack");
+                GameManager.instance.playSource(attackClip);
                 attackCounter = 0;
             }
         }

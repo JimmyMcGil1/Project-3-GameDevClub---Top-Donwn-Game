@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class VienSanDau : MonoBehaviour
 {
+    [SerializeField] AudioClip charFall;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -13,6 +14,7 @@ public class VienSanDau : MonoBehaviour
             UIInSceneSript.instance.PrintCharacterWin(collision.gameObject);
             collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = -2;
             StartCoroutine(GameOverInvoker(1,collision.gameObject));
+            GameManager.instance.playSource(charFall);
             
         }
 

@@ -227,6 +227,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 2278721301055178900, guid: c6b7ac0237844d94f8f47b49aa80250c, type: 3}
   attackTimmer: 0.8
+  attackClip: {fileID: 8300000, guid: fd3dc2961faec4e70a1007f8d4a178d0, type: 3}
 --- !u!114 &2158217301922255645
 MonoBehaviour:
   m_ObjectHideFlags: 0

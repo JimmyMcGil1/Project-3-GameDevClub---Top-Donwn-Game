@@ -11,6 +11,7 @@ public class Cowboy_attack : MonoBehaviour
     Character_BaseSet baseSet;
     [SerializeField] float attackTimmer;
     float attackCounter;
+    [SerializeField] AudioClip attackClip;
 
     private void Awake()
     {
@@ -25,6 +26,7 @@ public class Cowboy_attack : MonoBehaviour
         {
             if (attackCounter > attackTimmer)
             {
+                GameManager.instance.playSource(attackClip);
                 anim.SetTrigger("attack1");
                 attackCounter = 0;
             }
@@ -33,6 +35,7 @@ public class Cowboy_attack : MonoBehaviour
         {
             if (attackCounter > attackTimmer)
             {
+                GameManager.instance.playSource(attackClip);
                 anim.SetTrigger("attack1");
                 attackCounter = 0;
             }

@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     Transform initPlayer1;
     Transform initPlayer2;
      public GameObject loadChar;
+    AudioSource audi;
     public int battleDuration;
     private void Awake()
     {
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
         else instance = this;
         initPlayer1 = transform.Find("InitPosPlayer1").gameObject.transform;
         initPlayer2 = transform.Find("InitPosPlayer2").gameObject.transform;
+        audi = GetComponent<AudioSource>();
         GameObject obj = GameObject.FindGameObjectWithTag("GameController");
         if (obj == null)
         {
@@ -64,7 +66,10 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(0.01f);
         }
     }
-   
+    public void playSource(AudioClip soundClip)
+    {
+        audi.PlayOneShot(soundClip);
+    }
     private void Update()
     {
      

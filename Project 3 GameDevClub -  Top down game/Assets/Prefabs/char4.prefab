@@ -377,6 +377,7 @@ MonoBehaviour:
   skill2Duration: 0
   skill2Weight: 0
   skill2AnimationDuration: 0
+  attackClip: {fileID: 8300000, guid: d799aecd7d3fe2b44bf71629b62c1f03, type: 3}
 --- !u!1 &2523779964546318958
 GameObject:
   m_ObjectHideFlags: 0

@@ -862,17 +862,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1408109758072276282, guid: b74b21764826066429e085dc1a687c2e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2772908191686834557, guid: b74b21764826066429e085dc1a687c2e, type: 3}
       propertyPath: m_Name
       value: ManagerGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 2772908191686834557, guid: b74b21764826066429e085dc1a687c2e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8042196436905037294, guid: b74b21764826066429e085dc1a687c2e, type: 3}
       propertyPath: m_RootOrder

@@ -24,6 +24,7 @@ public class Char4_behavior : MonoBehaviour
     [SerializeField] float skill2Weight;
     [SerializeField] float skill2AnimationDuration;
     float skill2Counter;
+    [SerializeField] AudioClip attackClip;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -48,6 +49,7 @@ public class Char4_behavior : MonoBehaviour
             {
                 anim.SetTrigger("attack");
                 attackCounter = 0;
+                GameManager.instance.playSource(attackClip);
             }
         }
         if (Input.GetKeyDown(KeyCode.E) && baseSet.attackType == 1)
@@ -56,6 +58,7 @@ public class Char4_behavior : MonoBehaviour
             {
                 anim.SetTrigger("attack");
                 attackCounter = 0;
+                GameManager.instance.playSource(attackClip);
             }
         }
         attackCounter += Time.deltaTime;

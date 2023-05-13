@@ -254,6 +254,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 384
+  attackClip: {fileID: 8300000, guid: d799aecd7d3fe2b44bf71629b62c1f03, type: 3}
 --- !u!1 &4106993066111841347
 GameObject:
   m_ObjectHideFlags: 0
