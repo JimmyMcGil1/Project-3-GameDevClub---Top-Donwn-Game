@@ -22,7 +22,7 @@ public class Sandau2Controller : MonoBehaviour
         float currentRotation = tilemap.transform.rotation.eulerAngles.z;
 
         float newRotation = currentRotation + rotationSpeed * Time.deltaTime;
-        tilemap.transform.rotation = Quaternion.Euler(0f, 0f, newRotation);
+        tilemap.transform.rotation = Quaternion.Euler(20, 0f, newRotation); //tao do nghieng
     }
 
     private void FixedUpdate()

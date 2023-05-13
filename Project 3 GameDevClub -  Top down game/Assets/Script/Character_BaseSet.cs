@@ -1,4 +1,5 @@
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,8 @@ public class Character_BaseSet : MonoBehaviour
     GameObject character_ui;
     Slider weight_slider;
     Text weight_text;
+    Image portraitChar;
+    Image portraitCharBorder;
     [HideInInspector] public float hor;
     [HideInInspector] public float ver;
     public int playerID;
@@ -30,9 +33,15 @@ public class Character_BaseSet : MonoBehaviour
         character_ui = transform.Find("Character_UI").gameObject;
         weight_slider = character_ui.transform.Find("weight_slider").gameObject.GetComponent<Slider>();
         weight_text = character_ui.transform.Find("weight_text").gameObject.GetComponent<Text>();
+        portraitChar = character_ui.transform.Find("character_portrait").gameObject.GetComponent<Image>();
+        portraitCharBorder = transform.Find("UI_Image").Find("character_portraitBorder").gameObject.GetComponent<Image>();
         weight_slider.maxValue = maxWeight;
         weight_slider.value = currWeight;
         weight_text.text = $"{currWeight}/{maxWeight}";
+
+        //initial set of typy control
+        controlType = 2;
+        attackType = 2;
 
         anim = GetComponent<Animator>();
         rigit = GetComponent<Rigidbody2D>();
@@ -43,6 +52,7 @@ public class Character_BaseSet : MonoBehaviour
         Debug.Log(maxWeight.ToString());
         speed = 1f / maxWeight * 200f;
         Debug.Log(speed.ToString());
+        CheckUISide();
 
     }
     private void Update()
@@ -66,6 +76,7 @@ public class Character_BaseSet : MonoBehaviour
         anim.SetBool("isMoving", hor != 0 || ver != 0);
         if (hor != 0 || ver != 0) Moving();
     }
+    
     public void ChangeWeight(int _weight)
     {
         if (_weight < 0)
@@ -105,5 +116,52 @@ public class Character_BaseSet : MonoBehaviour
         newPos *= speed * Time.deltaTime;
         rigit.position += newPos;
     }
+    void CheckUISide()
+    {
+        Vector3 hold;
+        if (controlType == 1)
+        {
 
+            if (portraitCharBorder.GetComponent<RectTransform>().anchoredPosition.x > 0)
+            {
+                hold = portraitCharBorder.GetComponent<RectTransform>().anchoredPosition;
+                hold.x -= 985;
+                portraitCharBorder.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = portraitChar.GetComponent<RectTransform>().anchoredPosition;
+                hold.x -= 985;
+                portraitChar.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = weight_slider.GetComponent<RectTransform>().anchoredPosition;
+                hold.x -= 985;
+                weight_slider.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = weight_text.GetComponent<RectTransform>().anchoredPosition;
+                hold.x -= 985;
+                weight_text.GetComponent<RectTransform>().anchoredPosition = hold;
+            }
+        }
+        else if (controlType == 2)
+        {
+            if (portraitCharBorder.GetComponent<RectTransform>().anchoredPosition.x < 0)
+            {
+                hold = portraitCharBorder.GetComponent<RectTransform>().anchoredPosition;
+                hold.x += 985;
+                portraitCharBorder.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = portraitChar.GetComponent<RectTransform>().anchoredPosition;
+                hold.x += 985;
+                portraitChar.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = weight_slider.GetComponent<RectTransform>().anchoredPosition;
+                hold.x += 985;
+                weight_slider.GetComponent<RectTransform>().anchoredPosition = hold;
+
+                hold = weight_text.GetComponent<RectTransform>().anchoredPosition;
+                hold.x += 985;
+                weight_text.GetComponent<RectTransform>().anchoredPosition = hold;
+            }
+        }
+    }
+    
 }

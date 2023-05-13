@@ -9,22 +9,35 @@ public class Cowboy_attack : MonoBehaviour
     [SerializeField] GameObject bullet;
     Animator anim;
     Character_BaseSet baseSet;
+    [SerializeField] float attackTimmer;
+    float attackCounter;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
         baseSet = GetComponent<Character_BaseSet>();
-
+        attackCounter = Mathf.Infinity;
         Debug.Log(baseSet.attackType);
     }
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && baseSet.attackType == 1)
         {
-            anim.SetTrigger("attack1");
+            if (attackCounter > attackTimmer)
+            {
+                anim.SetTrigger("attack1");
+                attackCounter = 0;
+            }
         }
         if (Input.GetKeyDown(KeyCode.Mouse0) && baseSet.attackType == 2)
-            anim.SetTrigger("attack1");
+        {
+            if (attackCounter > attackTimmer)
+            {
+                anim.SetTrigger("attack1");
+                attackCounter = 0;
+            }
+        }
+        attackCounter += Time.deltaTime;
     }
     public void FireBullet()
     {

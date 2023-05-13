@@ -55,7 +55,8 @@ public class Char3_behiviour : MonoBehaviour
         if (hit.collider != null)
         {
             //Layer is PlayerCollider
-            if (hit.collider.gameObject.layer == 8)
+            GameObject myseft = transform.Find("Character3_Collider").gameObject;
+            if (hit.collider.gameObject.layer == 8 && hit.collider.gameObject != myseft)
             {
              //   StartCoroutine(AttackPush(hit.collider.gameObject.transform.parent.gameObject));
                 Vector2 dir = new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY"));

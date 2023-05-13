@@ -52,7 +52,7 @@ public class UIInSceneSript : MonoBehaviour
     public void DisplayUIButton()
     {
         UI_btns.gameObject.SetActive(true);
-        Time.timeScale = 1;
+       // Time.timeScale = 1;
     }
     IEnumerator CountDownToBegin()
     {

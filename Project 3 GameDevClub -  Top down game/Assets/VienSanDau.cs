@@ -11,17 +11,25 @@ public class VienSanDau : MonoBehaviour
             collision.gameObject.GetComponent<Rigidbody2D>().gravityScale = 9;
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
             UIInSceneSript.instance.PrintCharacterWin(collision.gameObject);
+            collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = -2;
+            StartCoroutine(GameOverInvoker(1,collision.gameObject));
+            
+        }
 
-            StartCoroutine(GameOverInvoker(1));
-        }
-        IEnumerator GameOverInvoker(float sec)
+        if (collision.gameObject.CompareTag("Item"))
         {
-            for (int i = 0; i < sec; i++)
-            {
-                yield return new WaitForSeconds(sec);
-            }
-            GameManager.instance.GameOver(collision.gameObject);
+            collision.gameObject.GetComponent<Rigidbody2D>().gravityScale = 9;
+            collision.gameObject.GetComponent<SpriteRenderer>().sortingOrder = 0;
+
         }
+        
     }
-    
+    IEnumerator GameOverInvoker(float sec, GameObject _collision)
+    {
+        for (int i = 0; i < sec; i++)
+        {
+            yield return new WaitForSeconds(sec);
+        }
+        GameManager.instance.GameOver(_collision.gameObject);
+    }
 }

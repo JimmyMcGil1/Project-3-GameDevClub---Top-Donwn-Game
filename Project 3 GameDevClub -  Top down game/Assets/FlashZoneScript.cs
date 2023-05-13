@@ -25,10 +25,10 @@ public class FlashZoneScript : MonoBehaviour
         Vector2 _dir = new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY"));
         for (int i = 0; i < 1; i++)
         {
-            character.GetComponent<Rigidbody2D>().AddForce(2f * _dir, ForceMode2D.Impulse);
+            character.GetComponent<Rigidbody2D>().AddForce(1.3f * _dir, ForceMode2D.Impulse);
             yield return new WaitForSeconds(0.5f);
         }
-        character.GetComponent<Rigidbody2D>().AddForce(-2f * _dir, ForceMode2D.Impulse);
+        character.GetComponent<Rigidbody2D>().AddForce(-1.3f * _dir, ForceMode2D.Impulse);
 
     }
 }

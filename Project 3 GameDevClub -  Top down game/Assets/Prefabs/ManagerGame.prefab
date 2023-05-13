@@ -122,6 +122,14 @@ PrefabInstance:
       propertyPath: initPlayer2
       value: 
       objectReference: {fileID: 2070258390776174744}
+    - target: {fileID: 7155268430411640055, guid: 96bbed86076609d478c300887a1db183, type: 3}
+      propertyPath: CharacterPool.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7155268430411640055, guid: 96bbed86076609d478c300887a1db183, type: 3}
+      propertyPath: CharacterPool.Array.data[2]
+      value: 
+      objectReference: {fileID: 2523779964457393848, guid: 2a16342f9a53845cb837b583a3cc95da, type: 3}
     - target: {fileID: 7750122129867724547, guid: 96bbed86076609d478c300887a1db183, type: 3}
       propertyPath: m_RootOrder
       value: 1

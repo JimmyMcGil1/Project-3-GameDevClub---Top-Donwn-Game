@@ -23,6 +23,7 @@ public class seesaw_sensor : MonoBehaviour
 
         }
     }
+    
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -35,5 +36,9 @@ public class seesaw_sensor : MonoBehaviour
             totalWeight -= collision.gameObject.GetComponent<Item_BaseSet>().weight;
 
         }
+    }
+    public void ChangeWeight()
+    {
+
     }
 }

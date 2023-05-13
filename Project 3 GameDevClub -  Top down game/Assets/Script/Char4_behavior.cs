@@ -16,6 +16,7 @@ public class Char4_behavior : MonoBehaviour
     BoxCollider2D box;
     [SerializeField] float attackRadius;
     [SerializeField] float attackPos;
+    [SerializeField] Vector3 allignBoxPos;
     [SerializeField] LayerMask playerLayer;
 
     [Header("Skill 2")]
@@ -41,10 +42,7 @@ public class Char4_behavior : MonoBehaviour
 
     private void Update()
     {
-        hor = Input.GetAxisRaw("Horizontal");
-        ver = Input.GetAxisRaw("Vertical");
-        anim.SetBool("isMoving", hor != 0 || ver != 0);
-        if (hor != 0 || ver != 0) Moving();
+       
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             if (attackCounter > attackTimmer)
@@ -71,35 +69,29 @@ public class Char4_behavior : MonoBehaviour
         }
     }
 
-    void Moving()
-    {
-        anim.SetFloat("dirX", hor);
-        anim.SetFloat("dirY", ver);
-        Vector2 newPos = new Vector2(hor, ver);
-        if (newPos.magnitude > 1) newPos.Normalize();
-        newPos *= baseSet.speed * Time.deltaTime;
-        rigid.position += newPos;
-    }
-
+   
     void Attack()
     {
-        Vector2 _attackPos = box.bounds.center + new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")) * attackPos;
+        Vector2 _attackPos = box.bounds.center + allignBoxPos + new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")) * attackPos;
         RaycastHit2D hit = Physics2D.CircleCast(_attackPos, attackRadius, new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")), 0.01f, playerLayer );
         if (hit.collider != null)
         {
-            if (hit.collider.gameObject.layer == 8)
+            GameObject myseft = gameObject.transform.Find("char4Collider").gameObject;
+            if (hit.collider.gameObject.layer == 8 && hit.collider.gameObject != myseft)
             {
                 Debug.Log("Hit enemy");
-                StartCoroutine(AttackPush(hit.collider.gameObject.transform.parent.gameObject));
+
+                Vector2 dir = new Vector2(anim.GetFloat("dirX"), anim.GetFloat("dirY"));
+                hit.collider.transform.parent.GetComponent<Character_BaseSet>().TakeDame(-10, 1.3f, dir);
             }
         }   
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.magenta;
-        if (!Application.isPlaying) return;
-        Vector2 _attackPos = box.bounds.center + new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")) * attackPos;
+        Gizmos.color = Color.green;
+        //if (!Application.isPlaying) return;
+        Vector2 _attackPos = box.bounds.center + allignBoxPos + new Vector3(anim.GetFloat("dirX"), anim.GetFloat("dirY")) * attackPos;
         Gizmos.DrawWireSphere(_attackPos, attackRadius);
     }
 

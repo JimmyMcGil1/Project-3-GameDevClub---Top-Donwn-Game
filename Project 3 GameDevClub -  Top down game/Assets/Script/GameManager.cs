@@ -46,6 +46,7 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("SampleScene");
         loadChar = gameObject.transform.parent.Find("LoadCharacter").gameObject;
         loadChar.GetComponent<LoadCharacterScript>();
+        Time.timeScale = 1;
     }
 
     public void GameOver(GameObject CharaccterWin)

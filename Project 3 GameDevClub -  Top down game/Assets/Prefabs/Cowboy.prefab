@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217301780015848}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9, y: -0.5, z: -0.113501}
+  m_LocalPosition: {x: -1.03, y: -0.59, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -226,6 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bullet: {fileID: 2278721301055178900, guid: c6b7ac0237844d94f8f47b49aa80250c, type: 3}
+  attackTimmer: 0.8
 --- !u!114 &2158217301922255645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +241,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxWeight: 80
   speed: 0
+  hor: 0
+  ver: 0
   playerID: 0
+  controlType: 0
+  attackType: 0
 --- !u!1 &2158217301975976187
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217302166509212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.952, y: 1.46, z: -0.113501}
+  m_LocalPosition: {x: 0.9, y: 1.89, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -543,7 +548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217302597019101}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.56, z: -0.113501}
+  m_LocalPosition: {x: -0.07, y: -0.76, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -585,7 +590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -643, y: 463}
+  m_AnchoredPosition: {x: -646, y: 460}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2158217302647567782
@@ -751,7 +756,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217302777754822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: -0.113501}
+  m_LocalPosition: {x: -0.1, y: 2.4, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -782,7 +787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217302837792484}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.95, y: 1.73, z: -0.113501}
+  m_LocalPosition: {x: -1.22, y: 1.86, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -849,7 +854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217302992794685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.9, y: 0.69, z: -0.113501}
+  m_LocalPosition: {x: -1.21, y: 0.69, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1051,7 +1056,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2158217303658217938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: -0.5, z: -0.113501}
+  m_LocalPosition: {x: 0.94, y: -0.61, z: -0.113501}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1222,7 +1227,7 @@ GameObject:
   - component: {fileID: 4327276815881402853}
   m_Layer: 8
   m_Name: Cowboy_Collider
-  m_TagString: Untagged
+  m_TagString: CharacterCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

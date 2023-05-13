@@ -14,12 +14,12 @@ public class SanDauSeeSaw : MonoBehaviour
     bool isPushCharacter = false;
     private void Awake()
     {
-        players = GameObject.FindGameObjectsWithTag("Player");
         left = transform.Find("left sensor").gameObject.GetComponent<seesaw_sensor>();
         right = transform.Find("right sensor").gameObject.GetComponent<seesaw_sensor>();
     }
     void Start()
     {
+        players = GameObject.FindGameObjectsWithTag("Player");
     }
 
     // Update is called once per frame
