@@ -28,7 +28,7 @@ public class Character_BaseSet : MonoBehaviour
     BoxCollider2D box;
     private void Awake()
     {
-        //speed = 1 / maxWeight * 200;
+        speed = 1 / maxWeight * 200;
         currWeight = maxWeight;
         character_ui = transform.Find("Character_UI").gameObject;
         weight_slider = character_ui.transform.Find("weight_slider").gameObject.GetComponent<Slider>();

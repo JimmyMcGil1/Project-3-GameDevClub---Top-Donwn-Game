@@ -24,7 +24,6 @@ public class Char4_behavior : MonoBehaviour
     [SerializeField] float skill2Weight;
     [SerializeField] float skill2AnimationDuration;
     float skill2Counter;
-
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -42,8 +41,16 @@ public class Char4_behavior : MonoBehaviour
 
     private void Update()
     {
-       
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+
+        if (Input.GetKeyDown(KeyCode.Mouse0) && baseSet.attackType == 2)
+        {
+            if (attackCounter > attackTimmer)
+            {
+                anim.SetTrigger("attack");
+                attackCounter = 0;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.E) && baseSet.attackType == 1)
         {
             if (attackCounter > attackTimmer)
             {
@@ -52,7 +59,13 @@ public class Char4_behavior : MonoBehaviour
             }
         }
         attackCounter += Time.deltaTime;
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.O) && baseSet.attackType == 1)
+        {
+            anim.SetTrigger("skill2");
+            skill2Counter = skill2Duration;
+            baseSet.ChangeWeight(Mathf.RoundToInt(skill2Weight));
+        }
+        if (Input.GetKeyDown(KeyCode.Mouse1) && baseSet.attackType == 2)
         {
             anim.SetTrigger("skill2");
             skill2Counter = skill2Duration;
